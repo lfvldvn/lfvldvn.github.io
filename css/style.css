@@ -109,7 +109,38 @@ ul {
     transform: scale(1.2);
 }
 
+.qrcode {
+    width: 05rem;
+    margin: 01.5rem auto 0;
+
+    position: relative;
+}
+
+.qrcode span {
+    position: absolute;
+    top: -5px;
+    z-index: 1;
+}
+
+.qrcode>img {
+    width: 05rem;
+    height: 05rem;
+    object-fit: cover;
+
+}
+
 @media (min-width: 1920px) {
+
+    /* estilos versão desktop */
+    main {
+        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/7b3008a839a08ca55c74a84ffa20ff56e27d5f37/images/background_desk_full.svg);
+        background-position: center right;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+}
+
+@media (min-width: 960px) {
 
     /* estilos versão desktop */
     main {
