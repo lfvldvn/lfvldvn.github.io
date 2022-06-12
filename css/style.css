@@ -299,7 +299,7 @@ header {
 
 header::before {
     content: '';
-    width: 330px;
+    width: 300px;
     height: calc(06rem + var(--nav-height));
     display: block;
     position: absolute;
@@ -314,7 +314,7 @@ header::before {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 330px;
+    width: 300px;
     margin-inline: auto;
     padding-inline: 2.4rem;
 }
@@ -328,17 +328,17 @@ nav {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #fff;
+    background-color: transparent;
     margin: auto;
     width: 100vw;
 }
 
 nav a {
-    color: #0099ff;
+    color: #fff;
 }
 
 nav a:hover {
-    color: #01c4ff;
+    color: #fff;
 }
 
 nav .wrapper {
@@ -346,11 +346,11 @@ nav .wrapper {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: transparent;
 }
 
 nav .scroll {
-    background: #fff;
-    width: 330px;
+    background: transparent;
+    width: 300px;
 }
 }
