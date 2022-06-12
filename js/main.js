@@ -5,7 +5,7 @@ const LinksSocialMedia = {
     twitter: 'lfvldvn',
     instagram: 'lfvldvn',
     //whatsapp: 'send?phone=5511941150397'
-    
+
 }
 
 function changeSocialMediaLinks() {
@@ -19,20 +19,29 @@ function changeSocialMediaLinks() {
 
 changeSocialMediaLinks()
 
-function getGitHubProfileInfos(){
+function getGitHubProfileInfos() {
     const url = `https://api.github.com/users/${LinksSocialMedia.github}`
 
     fetch(url)
-    .then(response => response.json())
-    .then(data => {
-        userName.textContent = data.name
-        userBio.textContent = data.bio
-        userLink.href = data.html_url
-        //userPhoto.src = data.avatar_url
-        userLogin.textContent = data.login
-    })
+        .then(response => response.json())
+        .then(data => {
+            userName.textContent = data.name
+            userBio.textContent = data.bio
+            userLink.href = data.html_url
+            //userPhoto.src = data.avatar_url
+            userLogin.textContent = data.login
+        })
 }
 
 getGitHubProfileInfos()
 
 
+//header nav menu
+
+function onScroll() {
+
+}
+
+if () {
+    navigation.classList.add('scroll')
+}

@@ -1,3 +1,7 @@
+:root {
+    --nav-height: 1.2rem
+}
+
 * {
     margin: 0;
 }
@@ -109,7 +113,7 @@ ul {
 
 .icon {
     position: relative;
-    border: 2px solid #ffffff;
+    border: 2px solid;
     border-radius: 50px;
     overflow: hidden;
 }
@@ -129,15 +133,15 @@ ul {
 
 /* QR CODE */
 .qrcode {
-    width: 05rem;
+    width: 07rem;
+    height: 07rem;
     margin: 01.5rem auto 0;
-    height: 05rem;
     position: relative;
 }
 
 .qrcode>img {
-    width: 05rem;
-    height: 05rem;
+    width: 07rem;
+    height: 07rem;
     object-fit: cover;
 
 }
@@ -147,6 +151,68 @@ ul {
     margin: 3.5rem auto 0;
     width: 20rem;
     position: relative;
+}
+
+/* HEADER */
+header {
+    margin-top: calc(4.1rem + (--nav-height));
+}
+
+header::before {
+    content: '';
+    width: 100vw;
+    height: calc(06rem + var(--nav-height));
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* MENU */
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 27.1875rem;
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: var(--nav-height);
+    padding: 1.2rem 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    margin: auto;
+    width: 100vw;
+}
+
+nav a {
+    color: #512563;
+}
+
+nav a:hover {
+    color: #D11851;
+}
+
+nav .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+nav .scroll {
+    background: #fff;
+    width: 100vw;
 }
 
 /*DESKTOP*/
@@ -162,15 +228,15 @@ ul {
 
     /* QR CODE DESKTOP*/
     .qrcode {
-        width: 05rem;
+        width: 07rem;
+        height: 07rem;
         margin: 01.5rem auto 0;
-
         position: relative;
     }
 
     .qrcode>img {
-        width: 05rem;
-        height: 05rem;
+        width: 07rem;
+        height: 07rem;
         object-fit: cover;
 
     }
@@ -205,7 +271,7 @@ ul {
     }
 }
 
-@media screen (max-width: 720px; ) {
+@media (max-width: 720px) {
     .like {
         position: absolute;
         top: -55px;
