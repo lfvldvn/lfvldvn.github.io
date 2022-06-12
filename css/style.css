@@ -133,6 +133,10 @@ ul {
 
 }
 
+.qrcodeimg {
+    display: none;
+}
+
 @media (min-width: 1920px) {
 
     /* estilos versão desktop */
@@ -162,4 +166,15 @@ ul {
         object-fit: cover;
 
     }
+}
+
+
+@media screen and (max-width: 720px) {
+ .qrcode{
+  display:none;
+ }
+
+ .qrcode {
+  display:block;
+ }
 }
