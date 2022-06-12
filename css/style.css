@@ -334,11 +334,11 @@ nav {
 }
 
 nav a {
-    color: #512563;
+    color: #fffb00;
 }
 
 nav a:hover {
-    color: #D11851;
+    color: #01c4ff;
 }
 
 nav .wrapper {
