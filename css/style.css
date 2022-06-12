@@ -1,7 +1,3 @@
-:root {
-    --nav-height:0.2rem;
-}
-
 * {
     margin: 0;
 }
@@ -22,6 +18,7 @@ body {
     background-color: #202024;
 }
 
+
 main {
     background: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/dd1dce75cdd01697cfd3563b44496296dc0bfdc1/images/background_mobile.svg) no-repeat center/cover;
     width: 100vw;
@@ -38,6 +35,7 @@ main {
     color: var(--grey);
 }
 
+/* AVATAR PICTURE */
 .avatar {
     width: 10rem;
     margin: 11.5rem auto 0;
@@ -50,18 +48,6 @@ main {
     top: -15px;
     z-index: 1;
 }
-
-.icon {
-    opacity: 1;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .50s ease-in-out;
-    -webkit-transition: opacity .50s ease-in-out;
-}
-
-.icon:hover {
-    opacity: 1;
-}
-
 
 .like {
     position: absolute;
@@ -76,10 +62,10 @@ main {
     width: 10rem;
     height: 11.5rem;
     object-fit: cover;
-
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
+/* TEXT TITLE AND BIO */
 h1 {
     font-size: 1.5rem;
 
@@ -89,12 +75,9 @@ h1 {
 a {
     color: var(--grey);
     text-decoration: none;
-
     margin-top: 0.25rem;
-
     display: flex;
     gap: 0.75rem;
-
     justify-content: center;
     align-items: center;
 }
@@ -105,14 +88,23 @@ p {
 
 ul {
     margin-top: 4rem;
-
     list-style: none;
     padding: 0;
-
     display: flex;
     gap: 0.5rem;
-
     justify-content: center;
+}
+
+/*SOCIAL MEDIA ICONS */
+.icon {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .50s ease-in-out;
+    -webkit-transition: opacity .50s ease-in-out;
+}
+
+.icon:hover {
+    opacity: 1;
 }
 
 .icon {
@@ -157,44 +149,6 @@ ul {
     position: relative;
 }
 
-/* HEADER */
-header {
-    margin-top: calc(3.5rem + var(--nav-height));
-}
-
-header::before {
-    content: '';
-    width: 23.4375rem;
-    height: calc(108rem + var(--nav-height));
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-/* NAVIGATION */
-.wrapper {
-    width: 23.4375rem;
-    margin-inline;
-    auto;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 23.4375rem;
-    height: var(--nav-height);
-    padding: 1.6rem 2.4rem;
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-
-}
-
 /*DESKTOP*/
 @media (min-width: 1920px) {
 
@@ -206,6 +160,7 @@ nav {
         width: 100%;
     }
 
+    /* QR CODE DESKTOP*/
     .qrcode {
         width: 05rem;
         margin: 01.5rem auto 0;
@@ -220,6 +175,7 @@ nav {
 
     }
 
+    /* LIKE AVATAR DESKTOP*/
     .like {
         position: absolute;
         top: -25px;
@@ -229,12 +185,14 @@ nav {
         height: 05rem;
     }
 
+    /* SPOTIFY DESKTOP*/
     .spotify {
         margin: 3.5rem auto 0;
         width: 29rem;
         position: relative;
     }
 
+    /* SOCIAL MEDIA ICONS DESKTOP*/
     .icon {
         opacity: 0.4;
         transition: opacity .25s ease-in-out;
