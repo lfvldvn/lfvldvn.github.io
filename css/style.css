@@ -48,15 +48,15 @@ main {
 }
 
 .icon {
-   opacity: 0.4;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .50s ease-in-out;
-   -webkit-transition: opacity .50s ease-in-out;
-   }
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .50s ease-in-out;
+    -webkit-transition: opacity .50s ease-in-out;
+}
 
-   .icon:hover {
-      opacity: 1;
-      }
+.icon:hover {
+    opacity: 1;
+}
 
 
 .like {
@@ -75,8 +75,6 @@ main {
 
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
-
-
 
 h1 {
     font-size: 1.5rem;
@@ -190,6 +188,17 @@ ul {
         margin: 3.5rem auto 0;
         width: 29rem;
         position: relative;
+    }
+
+    .icon {
+        opacity: 0.4;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .50s ease-in-out;
+        -webkit-transition: opacity .50s ease-in-out;
+    }
+
+    .icon:hover {
+        opacity: 1;
     }
 }
 
