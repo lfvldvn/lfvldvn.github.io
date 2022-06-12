@@ -133,14 +133,14 @@ ul {
 
 /* QR CODE */
 .qrcode {
-    width: 07rem;
+    width: 05rem;
     height: 07rem;
     margin: 01.5rem auto 0;
     position: relative;
 }
 
 .qrcode>img {
-    width: 07rem;
+    width: 05rem;
     height: 07rem;
     object-fit: cover;
 
@@ -168,14 +168,14 @@ ul {
 
     /* QR CODE DESKTOP*/
     .qrcode {
-        width: 07rem;
+        width: 05rem;
         height: 07rem;
-        margin: 01.5rem auto 0;
+        margin: .5rem auto 0;
         position: relative;
     }
 
     .qrcode>img {
-        width: 07rem;
+        width: 05rem;
         height: 07rem;
         object-fit: cover;
 
