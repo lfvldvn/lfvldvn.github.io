@@ -285,3 +285,72 @@ nav .scroll {
     }
 
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  /* HEADER */
+header {
+    margin-top: calc(4.1rem + (--nav-height));
+}
+
+header::before {
+    content: '';
+    width: 375px;
+    height: calc(06rem + var(--nav-height));
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* MENU */
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 375px;
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: var(--nav-height);
+    padding: 1.2rem 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    margin: auto;
+    width: 100vw;
+}
+
+nav a {
+    color: #512563;
+}
+
+nav a:hover {
+    color: #D11851;
+}
+
+nav .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+nav .scroll {
+    background: #fff;
+    width: 375px;
+}
+}
