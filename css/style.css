@@ -135,7 +135,7 @@ ul {
 
 .spotify {
     margin: 3.5rem auto 0;
-    width: 29rem;
+    width: 17rem;
     position: relative;
 }
 
@@ -170,6 +170,12 @@ ul {
         z-index: 1;
         width: 07rem;
         height: 07rem;
+    }
+
+    .spotify {
+        margin: 3.5rem auto 0;
+        width: 29rem;
+        position: relative;
     }
 }
 
