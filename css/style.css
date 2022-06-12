@@ -1,3 +1,7 @@
+:root {
+    --nav-height:0.2rem;
+}
+
 * {
     margin: 0;
 }
@@ -153,11 +157,27 @@ ul {
     position: relative;
 }
 
+/* HEADER */
+header {
+    margin-top: calc(3.5rem + var(--nav-height));
+}
+
+header::before {
+    content: '';
+    width: 23.4375rem;
+    height: calc(108rem + var(--nav-height));
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
 /* NAVIGATION */
 .wrapper {
-    width: 23.43;
-    margin-inline; auto;
+    width: 23.4375rem;
+    margin-inline;
+    auto;
 }
 
 nav {
@@ -165,13 +185,14 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 375px;
+    width: 23.4375rem;
+    height: var(--nav-height);
     padding: 1.6rem 2.4rem;
     position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    
+
 }
 
 /*DESKTOP*/
