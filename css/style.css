@@ -1,5 +1,6 @@
 :root {
-    --nav-height: 1.2rem
+    --nav-height: 1.2rem;
+    --grey: hsl(240, 9%, 89%);
 }
 
 * {
@@ -70,9 +71,8 @@ main {
 }
 
 /* TEXT TITLE AND BIO */
-h1 {
+.userName {
     font-size: 1.5rem;
-
     margin-top: 1.5rem;
 }
 
@@ -153,7 +153,26 @@ ul {
     position: relative;
 }
 
+/* ABOUT */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80vw;
+    color: var(--grey);
+    margin-bottom: 3.0rem;
+}
 
+.about {
+    text-align: justify;
+}
+
+.navtitles {
+    font-size: 7rem;
+    text-align: center;
+}
 
 /*DESKTOP*/
 @media (min-width: 960px) {
@@ -217,6 +236,28 @@ ul {
 
     .icon:hover {
         opacity: 1;
+    }
+
+
+    /* ABOUT */
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        width:23vw;
+        color: var(--grey);
+        margin-bottom: 7.0rem;
+    }
+
+    .about {
+        text-align: justify;
+    }
+
+    .navtitles {
+        font-size: 7rem;
+        text-align: center;
     }
 }
 
@@ -283,6 +324,8 @@ nav .scroll {
     background: #fff;
     width: 100vw;
 }
+
+
 
 @media only screen and (max-width: 768px) {
 
