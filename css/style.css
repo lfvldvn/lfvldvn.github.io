@@ -116,7 +116,7 @@ ul {
 .qrcode {
     width: 05rem;
     margin: 01.5rem auto 0;
-
+height: 05rem;
     position: relative;
 }
 
@@ -128,14 +128,11 @@ ul {
 
 .qrcode>img {
     width: 05rem;
-    height: 05rem;
+    
     object-fit: cover;
 
 }
 
-.qrcodeimg {
-    display: none;
-}
 
 @media (min-width: 1920px) {
 
@@ -166,15 +163,4 @@ ul {
         object-fit: cover;
 
     }
-}
-
-
-@media screen and (max-width: 720px) {
- .qrcode{
-  display:none;
- }
-
- .qrcode {
-  display:block;
- }
 }
