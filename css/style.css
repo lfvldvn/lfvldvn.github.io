@@ -110,10 +110,6 @@ ul {
 }
 
 .qrcode {
-    display: none;
-}
-
-.qrcode {
     width: 05rem;
     margin: 01.5rem auto 0;
     height: 05rem;
