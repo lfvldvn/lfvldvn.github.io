@@ -172,6 +172,13 @@ ul {
 .navtitles {
     font-size: 7rem;
     text-align: center;
+    background-image: linear-gradient(to bottom, #A703DA, #a00f77, #D21E59);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: bold;
+    line-height: 1.1;
 }
 
 /*DESKTOP*/
@@ -246,7 +253,7 @@ ul {
         align-items: center;
         justify-content: center;
         margin-inline: auto;
-        width:23vw;
+        width: 23vw;
         color: var(--grey);
         margin-bottom: 7.0rem;
     }
