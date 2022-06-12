@@ -157,4 +157,25 @@ ul {
         object-fit: cover;
 
     }
+
+    .like {
+        position: absolute;
+        top: -55px;
+        left: -10px;
+        z-index: 1;
+        width: 07rem;
+        height: 07rem;
+    }
+}
+
+@media screen (max-width: 720px;){
+.like {
+        position: absolute;
+        top: -55px;
+        left: -10px;
+        z-index: 1;
+        width: 07rem;
+        height: 07rem;
+    }
+    
 }
