@@ -4,7 +4,7 @@ const LinksSocialMedia = {
     facebook: 'alefvaldevinobarboza',
     twitter: 'lfvldvn',
     instagram: 'lfvldvn',
-    whatsapp: ''
+    whatsapp: 'send?phone=11941150397'
     
 }
 
