@@ -133,6 +133,11 @@ ul {
 
 }
 
+.spotify {
+    margin: 3.5rem auto 0;
+    width: 29rem;
+    position: relative;
+}
 
 @media (min-width: 1920px) {
 
@@ -168,8 +173,8 @@ ul {
     }
 }
 
-@media screen (max-width: 720px;){
-.like {
+@media screen (max-width: 720px; ) {
+    .like {
         position: absolute;
         top: -55px;
         left: -10px;
@@ -177,5 +182,5 @@ ul {
         width: 07rem;
         height: 07rem;
     }
-    
+
 }
