@@ -18,7 +18,7 @@ body {
 }
 
 main {
-    background: url(https://raw.githubusercontent.com/lfvldvn/Git_AlliN/e570ffd8b28f26147fe25f180f00eaec58b7432f/MyCard/images/background.svg) no-repeat center/cover;
+    background: url(https://raw.githubusercontent.com/lfvldvn/Git_AlliN/e570ffd8b28f26147fe25f180f00eaec58b7432f/MyCard/images/background_mobile.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 812px;
     height: 100vh;
@@ -112,7 +112,7 @@ ul {
 @media (min-width: 960px) {
 	/* estilos versão desktop */
     main {
-    background: url(https://raw.githubusercontent.com/lfvldvn/Git_AlliN/e570ffd8b28f26147fe25f180f00eaec58b7432f/MyCard/images/background.svg) no-repeat center;
+    background: url(https://raw.githubusercontent.com/lfvldvn/Git_AlliN/e570ffd8b28f26147fe25f180f00eaec58b7432f/MyCard/images/background_desk.svg) no-repeat center;
     width: 100vw;
     min-height: 812px;
     height: 100vh;
