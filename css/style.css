@@ -110,23 +110,7 @@ ul {
 }
 
 .qrcode {
-    width: 05rem;
-    margin: 01.5rem auto 0;
-
-    position: relative;
-}
-
-.qrcode span {
-    position: absolute;
-    top: -5px;
-    z-index: 1;
-}
-
-.qrcode>img {
-    width: 05rem;
-    height: 05rem;
-    object-fit: cover;
-
+    display: none;
 }
 
 @media (min-width: 1920px) {
@@ -137,5 +121,25 @@ ul {
         background-position: center right;
         background-repeat: no-repeat;
         width: 100%;
+    }
+
+    .qrcode {
+        width: 05rem;
+        margin: 01.5rem auto 0;
+
+        position: relative;
+    }
+
+    .qrcode span {
+        position: absolute;
+        top: -5px;
+        z-index: 1;
+    }
+
+    .qrcode>img {
+        width: 05rem;
+        height: 05rem;
+        object-fit: cover;
+
     }
 }
