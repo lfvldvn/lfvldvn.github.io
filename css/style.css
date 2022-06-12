@@ -153,6 +153,65 @@ ul {
     position: relative;
 }
 
+
+
+/*DESKTOP*/
+@media (min-width: 1920px) {
+
+    /* estilos versão desktop */
+    main {
+        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/7b3008a839a08ca55c74a84ffa20ff56e27d5f37/images/background_desk_full.svg);
+        background-position: center right;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    /* QR CODE DESKTOP*/
+    .qrcode {
+        width: 07rem;
+        height: 07rem;
+        margin: 01.5rem auto 0;
+        position: relative;
+    }
+
+    .qrcode>img {
+        width: 07rem;
+        height: 07rem;
+        object-fit: cover;
+
+    }
+
+    /* LIKE AVATAR DESKTOP*/
+    .like {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+        z-index: 1;
+        width: 05rem;
+        height: 05rem;
+    }
+
+    /* SPOTIFY DESKTOP*/
+    .spotify {
+        margin: 3.5rem auto 0;
+        width: 29rem;
+        position: relative;
+    }
+
+    /* SOCIAL MEDIA ICONS DESKTOP*/
+    .icon {
+        opacity: 0.4;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .50s ease-in-out;
+        -webkit-transition: opacity .50s ease-in-out;
+    }
+
+    .icon:hover {
+        opacity: 1;
+    }
+}
+
+
 /* HEADER */
 header {
     margin-top: calc(4.1rem + (--nav-height));
@@ -213,62 +272,6 @@ nav .wrapper {
 nav .scroll {
     background: #fff;
     width: 100vw;
-}
-
-/*DESKTOP*/
-@media (min-width: 1920px) {
-
-    /* estilos versão desktop */
-    main {
-        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/7b3008a839a08ca55c74a84ffa20ff56e27d5f37/images/background_desk_full.svg);
-        background-position: center right;
-        background-repeat: no-repeat;
-        width: 100%;
-    }
-
-    /* QR CODE DESKTOP*/
-    .qrcode {
-        width: 07rem;
-        height: 07rem;
-        margin: 01.5rem auto 0;
-        position: relative;
-    }
-
-    .qrcode>img {
-        width: 07rem;
-        height: 07rem;
-        object-fit: cover;
-
-    }
-
-    /* LIKE AVATAR DESKTOP*/
-    .like {
-        position: absolute;
-        top: -25px;
-        left: 0px;
-        z-index: 1;
-        width: 05rem;
-        height: 05rem;
-    }
-
-    /* SPOTIFY DESKTOP*/
-    .spotify {
-        margin: 3.5rem auto 0;
-        width: 29rem;
-        position: relative;
-    }
-
-    /* SOCIAL MEDIA ICONS DESKTOP*/
-    .icon {
-        opacity: 0.4;
-        transition: opacity .25s ease-in-out;
-        -moz-transition: opacity .50s ease-in-out;
-        -webkit-transition: opacity .50s ease-in-out;
-    }
-
-    .icon:hover {
-        opacity: 1;
-    }
 }
 
 @media (max-width: 720px) {
