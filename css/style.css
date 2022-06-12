@@ -1,3 +1,12 @@
+@media screen (min width:960px) {
+    main {
+    background: url(https://raw.githubusercontent.com/lfvldvn/Git_AlliN/e570ffd8b28f26147fe25f180f00eaec58b7432f/MyCard/images/background.svg) no-repeat center/cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
+}
+}
+
 * {
     margin: 0;
 }
@@ -18,7 +27,7 @@ body {
 }
 
 main {
-    background: url(https://raw.githubusercontent.com/lfvldvn/Git_AlliN/e570ffd8b28f26147fe25f180f00eaec58b7432f/MyCard/images/background.svg);
+    background: url(https://raw.githubusercontent.com/lfvldvn/Git_AlliN/e570ffd8b28f26147fe25f180f00eaec58b7432f/MyCard/images/background.svg) no-repeat center/cover;
     width: 100vw;
     min-height: 812px;
     height: 100vh;
