@@ -131,6 +131,7 @@ ul {
     transform: scale(1.2);
 }
 
+/* QR CODE */
 .qrcode {
     width: 05rem;
     margin: 01.5rem auto 0;
@@ -145,12 +146,34 @@ ul {
 
 }
 
+/* SPOTIFY */
 .spotify {
     margin: 3.5rem auto 0;
     width: 20rem;
     position: relative;
 }
 
+
+/* NAVIGATION */
+.wrapper {
+    width: 23.43;
+    margin-inline; auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 375px;
+    padding: 1.6rem 2.4rem;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+/*DESKTOP*/
 @media (min-width: 1920px) {
 
     /* estilos versão desktop */
