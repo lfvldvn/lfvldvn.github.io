@@ -113,13 +113,13 @@ ul {
 	/* estilos versão desktop */
     main {
     background: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/7b3008a839a08ca55c74a84ffa20ff56e27d5f37/images/background_desk_full.svg) no-repeat center;
-    width: 100%!important;
+    width: 1920px!important;
 }
 }
 @media (min-width: 1920px) {
 	/* estilos versão desktop */
     main {
     background: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/7b3008a839a08ca55c74a84ffa20ff56e27d5f37/images/background_desk_full.svg) no-repeat center;
-    width: 100%!important;
+    width: 1920px!important;
 }
 }
