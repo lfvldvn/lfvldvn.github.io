@@ -299,7 +299,7 @@ header {
 
 header::before {
     content: '';
-    width: 375px;
+    width: 350px;
     height: calc(06rem + var(--nav-height));
     display: block;
     position: absolute;
@@ -314,7 +314,7 @@ header::before {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 375px;
+    width: 350px;
     margin-inline: auto;
     padding-inline: 2.4rem;
 }
@@ -334,7 +334,7 @@ nav {
 }
 
 nav a {
-    color: #fffb00;
+    color: #00ff37;
 }
 
 nav a:hover {
@@ -351,6 +351,6 @@ nav .wrapper {
 
 nav .scroll {
     background: #fff;
-    width: 375px;
+    width: 350px;
 }
 }
