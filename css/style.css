@@ -156,7 +156,7 @@ ul {
 
 
 /*DESKTOP*/
-@media (min-width: 1920px) {
+@media (min-width: 960px) {
 
     /* estilos versão desktop */
     main {
