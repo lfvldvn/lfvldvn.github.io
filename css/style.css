@@ -172,7 +172,7 @@ ul {
     width: 20vw;
 }
 
-.about {
+.nav_text {
     text-align: justify;
 }
 
@@ -195,7 +195,7 @@ ul {
     width: 20vw;
 }
 
-.services {
+.nav_text {
     text-align: justify;
 }
 
@@ -218,7 +218,7 @@ ul {
     width: 20vw;
 }
 
-.labz {
+.nav_text {
     text-align: justify;
 }
 
@@ -241,14 +241,14 @@ ul {
     width: 20vw;
 }
 
-.contact {
+.nav_text {
     text-align: justify;
 }
 
 
 /* TITLES */
 .navtitles {
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: center;
     background-image: linear-gradient(to bottom, #A703DA, #a00f77, #D21E59);
     background-clip: text;
@@ -337,7 +337,7 @@ ul {
         margin-bottom: 7.0rem;
     }
 
-    .about {
+    .nav_text {
         text-align: justify;
     }
 
@@ -345,21 +345,7 @@ ul {
         font-size: 7rem;
         text-align: center;
     }
-    /* ABOUT */
-    #about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-inline: auto;
-        width: 23vw;
-        color: var(--grey);
-        margin-bottom: 7.0rem;
-    }
 
-    .about {
-        text-align: justify;
-    }
     /* SERVICES */
     #services {
         display: flex;
@@ -372,9 +358,10 @@ ul {
         margin-bottom: 7.0rem;
     }
 
-    .services {
+    .nav_text {
         text-align: justify;
     }
+
     /* LABZ */
     #labz {
         display: flex;
@@ -387,9 +374,10 @@ ul {
         margin-bottom: 7.0rem;
     }
 
-    .labz {
+    .nav_text {
         text-align: justify;
     }
+
     /* CONTACT */
     #contact {
         display: flex;
@@ -402,7 +390,7 @@ ul {
         margin-bottom: 7.0rem;
     }
 
-    .contact {
+    .nav_text {
         text-align: justify;
     }
 
@@ -410,7 +398,7 @@ ul {
         font-size: 7rem;
         text-align: center;
     }
-    
+
 }
 
 
@@ -490,16 +478,19 @@ nav .scroll {
     margin: auto;
     width: 20vw;
 }
+
 #services img {
     display: flex;
     margin: auto;
     width: 20vw;
 }
+
 #labz img {
     display: flex;
     margin: auto;
     width: 20vw;
 }
+
 #contact img {
     display: flex;
     margin: auto;
@@ -596,16 +587,19 @@ nav .scroll {
         margin: auto;
         width: 20vw;
     }
+
     #services img {
         display: flex;
         margin: auto;
         width: 20vw;
     }
+
     #labz img {
         display: flex;
         margin: auto;
         width: 20vw;
     }
+
     #contact img {
         display: flex;
         margin: auto;
