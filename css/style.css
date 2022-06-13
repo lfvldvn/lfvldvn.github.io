@@ -153,255 +153,6 @@ ul {
     position: relative;
 }
 
-/* ABOUT */
-#about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-inline: auto;
-    width: 80vw;
-    color: var(--grey);
-    margin-bottom: 1.0rem;
-    padding-top: 1.5rem;
-}
-
-#about img {
-    display: flex;
-    margin: auto;
-    width: 20vw;
-}
-
-.nav_text {
-    text-align: justify;
-}
-
-/* SERVICES */
-#services {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-inline: auto;
-    width: 80vw;
-    color: var(--grey);
-    margin-bottom: 1.0rem;
-    padding-top: 1.5rem;
-}
-
-#services img {
-    display: flex;
-    margin: auto;
-    width: 20vw;
-}
-
-.nav_text {
-    text-align: justify;
-}
-
-/* LABZ */
-#labz {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-inline: auto;
-    width: 80vw;
-    color: var(--grey);
-    margin-bottom: 1.0rem;
-    padding-top: 1.5rem;
-}
-
-#labz img {
-    display: flex;
-    margin: auto;
-    width: 20vw;
-}
-
-.nav_text {
-    text-align: justify;
-}
-
-/* CONTACT */
-#contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-inline: auto;
-    width: 80vw;
-    color: var(--grey);
-    margin-bottom: 1.0rem;
-    padding-top: 1.5rem;
-}
-
-#contact img {
-    display: flex;
-    margin: auto;
-    width: 20vw;
-}
-
-.nav_text {
-    text-align: justify;
-}
-
-
-/* TITLES */
-.navtitles {
-    font-size: 5rem;
-    text-align: center;
-    background-image: linear-gradient(to bottom, #A703DA, #a00f77, #D21E59);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: black;
-    font-weight: bold;
-    line-height: 1.1;
-}
-
-
-/*DESKTOP*/
-@media (min-width: 960px) {
-
-    /* estilos versão desktop */
-    main {
-        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/e5111619fa49f554adfe8ab67ca9222f481e11b2/images/background_2.svg);
-        background-position: center right;
-        background-repeat: no-repeat;
-        width: 100%;
-    }
-
-    .like {
-        position: absolute;
-        top: -55px;
-        left: -10px;
-        z-index: -1;
-        width: 07rem;
-        height: 07rem;
-    }
-
-    /* QR CODE DESKTOP*/
-    .qrcode {
-        width: 05rem;
-        height: 07rem;
-        margin: .5rem auto 0;
-        position: relative;
-    }
-
-    .qrcode>img {
-        width: 05rem;
-        height: 07rem;
-        object-fit: cover;
-
-    }
-
-    /* LIKE AVATAR DESKTOP*/
-    .like {
-        position: absolute;
-        top: -25px;
-        left: 0px;
-        z-index: 1;
-        width: 05rem;
-        height: 05rem;
-    }
-
-    /* SPOTIFY DESKTOP*/
-    .spotify {
-        margin: 3.5rem auto 0;
-        width: 29rem;
-        position: relative;
-    }
-
-    /* SOCIAL MEDIA ICONS DESKTOP*/
-    .icon {
-        opacity: 0.4;
-        transition: opacity .25s ease-in-out;
-        -moz-transition: opacity .50s ease-in-out;
-        -webkit-transition: opacity .50s ease-in-out;
-    }
-
-    .icon:hover {
-        opacity: 1;
-    }
-
-
-    /* ABOUT */
-    #about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-inline: auto;
-        width: 23vw;
-        color: var(--grey);
-        margin-bottom: 7.0rem;
-    }
-
-    .nav_text {
-        text-align: justify;
-    }
-
-    .navtitles {
-        font-size: 7rem;
-        text-align: center;
-    }
-
-    /* SERVICES */
-    #services {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-inline: auto;
-        width: 23vw;
-        color: var(--grey);
-        margin-bottom: 7.0rem;
-    }
-
-    .nav_text {
-        text-align: justify;
-    }
-
-    /* LABZ */
-    #labz {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-inline: auto;
-        width: 23vw;
-        color: var(--grey);
-        margin-bottom: 7.0rem;
-    }
-
-    .nav_text {
-        text-align: justify;
-    }
-
-    /* CONTACT */
-    #contact {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-inline: auto;
-        width: 23vw;
-        color: var(--grey);
-        margin-bottom: 7.0rem;
-    }
-
-    .nav_text {
-        text-align: justify;
-    }
-
-    .navtitles {
-        font-size: 7rem;
-        text-align: center;
-    }
-
-}
-
-
 /* HEADER */
 header {
     margin-top: calc(4.1rem + (--nav-height));
@@ -472,11 +223,63 @@ nav .scroll {
     background: #fff;
     width: 100vw;
 }
+/* ABOUT */
+#about img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+}
+/* SERVICES */
+#services img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+}
+/* LABZ */
+#labz img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+}
+/* CONTACT */
+#contact img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+}
+/*=========================END GERAL MAIN====================================*/
+
+/*=========================NAVEGATION PAGE CATEGORIES=========================*/
+/* ABOUT */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80vw;
+    color: var(--grey);
+    margin-bottom: 1.0rem;
+    padding-top: 1.5rem;
+}
 
 #about img {
     display: flex;
     margin: auto;
     width: 20vw;
+}
+
+/* SERVICES */
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80vw;
+    color: var(--grey);
+    margin-bottom: 1.0rem;
+    padding-top: 1.5rem;
 }
 
 #services img {
@@ -485,10 +288,36 @@ nav .scroll {
     width: 20vw;
 }
 
+/* LABZ */
+#labz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80vw;
+    color: var(--grey);
+    margin-bottom: 1.0rem;
+    padding-top: 1.5rem;
+}
+
 #labz img {
     display: flex;
     margin: auto;
     width: 20vw;
+}
+
+/* CONTACT */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80vw;
+    color: var(--grey);
+    margin-bottom: 1.0rem;
+    padding-top: 1.5rem;
 }
 
 #contact img {
@@ -497,8 +326,141 @@ nav .scroll {
     width: 20vw;
 }
 
+/* NAV TEXT TITLES */
+.navtitles {
+    font-size: 5rem;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #A703DA, #a00f77, #D21E59);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: bold;
+    line-height: 1.1;
+}
 
+/* NAV TEXT CONTENT */
+.nav_text {
+    text-align: justify;
+}
 
+/*=========================DESKTOP=========================*/
+@media (min-width: 960px) {
+
+    /* estilos versão desktop */
+    main {
+        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/e5111619fa49f554adfe8ab67ca9222f481e11b2/images/background_2.svg);
+        background-position: center right;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    /* QR CODE DESKTOP*/
+    .qrcode {
+        width: 05rem;
+        height: 07rem;
+        margin: .5rem auto 0;
+        position: relative;
+    }
+
+    .qrcode>img {
+        width: 05rem;
+        height: 07rem;
+        object-fit: cover;
+
+    }
+
+    /* LIKE AVATAR DESKTOP*/
+    .like {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+        z-index: 1;
+        width: 05rem;
+        height: 05rem;
+    }
+
+    /* SPOTIFY DESKTOP*/
+    .spotify {
+        margin: 3.5rem auto 0;
+        width: 29rem;
+        position: relative;
+    }
+
+    /* SOCIAL MEDIA ICONS DESKTOP*/
+    .icon {
+        opacity: 0.4;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .50s ease-in-out;
+        -webkit-transition: opacity .50s ease-in-out;
+    }
+
+    .icon:hover {
+        opacity: 1;
+    }
+
+    /* ABOUT */
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        width: 23vw;
+        color: var(--grey);
+        margin-bottom: 7.0rem;
+    }
+
+    /* SERVICES */
+    #services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        width: 23vw;
+        color: var(--grey);
+        margin-bottom: 7.0rem;
+    }
+
+    /* LABZ */
+    #labz {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        width: 23vw;
+        color: var(--grey);
+        margin-bottom: 7.0rem;
+    }
+
+    /* CONTACT */
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        width: 23vw;
+        color: var(--grey);
+        margin-bottom: 7.0rem;
+    }
+
+    /* NAV TEXT TITLES */
+    .navtitles {
+        font-size: 7rem;
+        text-align: center;
+    }
+
+    /* NAV TEXT CONTENTS */
+    .nav_text {
+        text-align: justify;
+    }
+
+}
+
+/*=========================MOBILE=========================*/
 @media only screen and (max-width: 768px) {
 
     /* For mobile phones: */
