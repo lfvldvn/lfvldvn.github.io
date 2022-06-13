@@ -162,13 +162,91 @@ ul {
     margin-inline: auto;
     width: 80vw;
     color: var(--grey);
-    margin-bottom: 3.0rem;
+    margin-bottom: 1.0rem;
+    padding-top: 1.5rem;
+}
+
+#about img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
 }
 
 .about {
     text-align: justify;
 }
 
+/* SERVICES */
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80vw;
+    color: var(--grey);
+    margin-bottom: 1.0rem;
+    padding-top: 1.5rem;
+}
+
+#services img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+}
+
+.services {
+    text-align: justify;
+}
+
+/* LABZ */
+#labz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80vw;
+    color: var(--grey);
+    margin-bottom: 1.0rem;
+    padding-top: 1.5rem;
+}
+
+#labz img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+}
+
+.labz {
+    text-align: justify;
+}
+
+/* CONTACT */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80vw;
+    color: var(--grey);
+    margin-bottom: 1.0rem;
+    padding-top: 1.5rem;
+}
+
+#contact img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+}
+
+.contact {
+    text-align: justify;
+}
+
+
+/* TITLES */
 .navtitles {
     font-size: 7rem;
     text-align: center;
@@ -267,6 +345,71 @@ ul {
         font-size: 7rem;
         text-align: center;
     }
+    /* ABOUT */
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        width: 23vw;
+        color: var(--grey);
+        margin-bottom: 7.0rem;
+    }
+
+    .about {
+        text-align: justify;
+    }
+    /* SERVICES */
+    #services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        width: 23vw;
+        color: var(--grey);
+        margin-bottom: 7.0rem;
+    }
+
+    .services {
+        text-align: justify;
+    }
+    /* LABZ */
+    #labz {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        width: 23vw;
+        color: var(--grey);
+        margin-bottom: 7.0rem;
+    }
+
+    .labz {
+        text-align: justify;
+    }
+    /* CONTACT */
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-inline: auto;
+        width: 23vw;
+        color: var(--grey);
+        margin-bottom: 7.0rem;
+    }
+
+    .contact {
+        text-align: justify;
+    }
+
+    .navtitles {
+        font-size: 7rem;
+        text-align: center;
+    }
     
 }
 
@@ -345,7 +488,22 @@ nav .scroll {
 #about img {
     display: flex;
     margin: auto;
-    width: 10vw;
+    width: 20vw;
+}
+#services img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+}
+#labz img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+}
+#contact img {
+    display: flex;
+    margin: auto;
+    width: 20vw;
 }
 
 
@@ -434,6 +592,21 @@ nav .scroll {
     }
 
     #about img {
+        display: flex;
+        margin: auto;
+        width: 20vw;
+    }
+    #services img {
+        display: flex;
+        margin: auto;
+        width: 20vw;
+    }
+    #labz img {
+        display: flex;
+        margin: auto;
+        width: 20vw;
+    }
+    #contact img {
         display: flex;
         margin: auto;
         width: 20vw;
