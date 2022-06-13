@@ -235,8 +235,8 @@ nav .scroll {
     margin: auto;
     width: 20vw;
 }
-/* LABZ */
-#labz img {
+/* CodeTeam */
+#CodeTeam img {
     display: flex;
     margin: auto;
     width: 20vw;
@@ -288,8 +288,8 @@ nav .scroll {
     width: 20vw;
 }
 
-/* LABZ */
-#labz {
+/* CodeTeam */
+#CodeTeam {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -301,7 +301,7 @@ nav .scroll {
     padding-top: 1.5rem;
 }
 
-#labz img {
+#CodeTeam img {
     display: flex;
     margin: auto;
     width: 20vw;
@@ -423,8 +423,8 @@ nav .scroll {
         margin-bottom: 7.0rem;
     }
 
-    /* LABZ */
-    #labz {
+    /* CodeTeam */
+    #CodeTeam {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -556,7 +556,7 @@ nav .scroll {
         width: 20vw;
     }
 
-    #labz img {
+    #CodeTeam img {
         display: flex;
         margin: auto;
         width: 20vw;
