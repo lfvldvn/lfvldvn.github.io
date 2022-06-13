@@ -223,7 +223,7 @@ nav .scroll {
     background: #fff;
     width: 100vw;
 }
-/a ABOUT */
+/* ABOUT */
 #about img {
     display: flex;
     margin: auto;
@@ -250,7 +250,7 @@ nav .scroll {
 /*=========================END GERAL MAIN====================================*/
 
 /*=========================NAVEGATION PAGE CATEGORIES=========================*/
-/a ABOUT */
+/* ABOUT */
 #about {
     display: flex;
     flex-direction: column;
@@ -399,7 +399,7 @@ nav .scroll {
         opacity: 1;
     }
 
-    /a ABOUT */
+    /* ABOUT */
     #about {
         display: flex;
         flex-direction: column;
