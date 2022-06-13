@@ -165,12 +165,6 @@ ul {
     margin-bottom: 3.0rem;
 }
 
-#about img {
-    display: flex;
-    margin: auto;
-    width: 40vw;
-}
-
 .about {
     text-align: justify;
 }
@@ -193,7 +187,7 @@ ul {
 
     /* estilos versão desktop */
     main {
-        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/7b3008a839a08ca55c74a84ffa20ff56e27d5f37/images/background_2.svg);
+        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/e5111619fa49f554adfe8ab67ca9222f481e11b2/images/background_2.svg);
         background-position: center right;
         background-repeat: no-repeat;
         width: 100%;
@@ -273,6 +267,7 @@ ul {
         font-size: 7rem;
         text-align: center;
     }
+    
 }
 
 
@@ -345,6 +340,12 @@ nav .wrapper {
 nav .scroll {
     background: #fff;
     width: 100vw;
+}
+
+#about img {
+    display: flex;
+    margin: auto;
+    width: 10vw;
 }
 
 
@@ -426,8 +427,15 @@ nav .scroll {
         width: 07rem;
         height: 07rem;
     }
+
     .img_nav {
-    display: none;
-    overflow: hidden;
-}
+        display: none;
+        overflow: hidden;
+    }
+
+    #about img {
+        display: flex;
+        margin: auto;
+        width: 20vw;
+    }
 }
