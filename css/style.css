@@ -33,13 +33,18 @@ body {
     right: 10px;
     width: 50px;
     height: 50px;
-    background: url(https://github.com/lfvldvn/lfvldvn.github.io/blob/main/images/top.png?raw=true) no-repeat;
     text-decoration: none;
+    margin:0 2rem 2rem 0;
+}
+
+.btn-img {
+    width: 100%;
 }
 
 .btn:hover::after {
-    margin-top:-8px;
+    margin-top: -8px;
 }
+
 main {
     background: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/dd1dce75cdd01697cfd3563b44496296dc0bfdc1/images/background_mobile.svg) no-repeat center/cover;
     width: 100vw;
