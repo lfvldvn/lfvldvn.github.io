@@ -252,8 +252,6 @@ nav .scroll {
     width: 20vw;
 }
 
-
-
 /*=========================END GERAL MAIN====================================*/
 
 /*=========================NAVEGATION PAGE CATEGORIES=========================*/
@@ -468,7 +466,7 @@ nav .scroll {
     /* SPOTIFY DESKTOP*/
     .spotify {
         margin: .5rem auto 0;
-        width: 22rem;
+        width: 2rem;
         position: relative;
     }
 
