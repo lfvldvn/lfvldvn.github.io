@@ -24,6 +24,28 @@ body {
 }
 
 
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/dd1dce75cdd01697cfd3563b44496296dc0bfdc1/images/top.png)
+    text-decoration: none;
+}
+.btn::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 2s;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
 main {
     background: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/dd1dce75cdd01697cfd3563b44496296dc0bfdc1/images/background_mobile.svg) no-repeat center/cover;
     width: 100vw;
