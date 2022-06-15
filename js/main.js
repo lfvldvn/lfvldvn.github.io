@@ -67,10 +67,7 @@ if () {
             animarScroll(this.scrollTop, posicao);
         }
 
-        
-$(document).ready(function () {
-    $("html").niceScroll();
-});
+
 
 
 
