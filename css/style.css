@@ -345,7 +345,7 @@ nav .scroll {
 }
 
 /*=========================DESKTOP=========================*/
-@media (min-width: 960px) {
+@media (min-width: 720px) {
 
     /* estilos versão desktop */
     main {
