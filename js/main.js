@@ -66,4 +66,3 @@ if () {
             var posicao = el.getBoundingClientRect().top;
             animarScroll(this.scrollTop, posicao);
         }
-

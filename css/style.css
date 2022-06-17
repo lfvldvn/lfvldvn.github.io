@@ -152,6 +152,13 @@ ul {
     transform: scale(1.2);
 }
 
+
+/*TryHackMe8*/
+.TryHackMe {
+    margin: 2rem 0;
+    margin: 01.5rem auto 0;
+    
+}
 /* QR CODE */
 .qrcode {
     width: 05rem;
