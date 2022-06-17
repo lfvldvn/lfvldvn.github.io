@@ -157,8 +157,8 @@ ul {
 .TryHackMe {
     margin: 2rem 0;
     margin: 01.5rem auto 0;
-    
 }
+
 /* QR CODE */
 .qrcode {
     width: 05rem;
@@ -478,6 +478,27 @@ nav .scroll {
         margin-bottom: 7.0rem;
     }
 
+    /* lista de soluções */
+    #list_solutions {
+        display: flex;
+        margin: 0 0 0 -10;
+        align-items: center;
+        justify-content: space-between;
+        width: 35vw;
+        line-height: 4.2rem;
+    }
+
+    #icon_solutions {
+        font-size: 1.3rem;
+        margin: 0 .7rem;
+
+    }
+
+    #icon_text_solutions {
+        font-size: 2.0rem;
+        margin: 0 .7rem;
+    }
+
     /* codeTeam */
     #codeTeam {
         display: flex;
@@ -666,5 +687,11 @@ nav .scroll {
         display: flex;
         margin: auto;
         width: 20vw;
+    }
+
+    /*TryHackMe8*/
+    .TryHackMe {
+        margin: 2rem 0;
+        margin: 01.5rem auto 0;
     }
 }
