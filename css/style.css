@@ -242,6 +242,7 @@ nav .scroll {
     background: #fff;
     width: 100vw;
 }
+
 /*=========================END GERAL MAIN====================================*/
 
 /*=========================NAVEGATION PAGE CATEGORIES=========================*/
@@ -362,6 +363,7 @@ nav .scroll {
 
 
 @media (min-width: 960px) {
+
     /* estilos versão desktop */
     main {
         background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/e5111619fa49f554adfe8ab67ca9222f481e11b2/images/background_2.svg);
@@ -375,7 +377,7 @@ nav .scroll {
         width: 06rem;
         height: 07rem;
         margin: 1.9rem auto 0;
-        
+
     }
 
     .qrcode>img {
@@ -396,6 +398,17 @@ nav .scroll {
         align-items: center;
         row-gap: 1.2rem;
         width: 29.6rem;
+    }
+
+    #googleLoginCTA {
+        display: flex;
+        margin: 1.5rem auto 0;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #buttonDiv {
+        display: none;
     }
 
     /* LIKE AVATAR DESKTOP*/
@@ -432,7 +445,10 @@ nav .scroll {
         color: var(--grey);
         margin-bottom: 7.0rem;
     }
-    .nav_text   {display: flex;}
+
+    .nav_text {
+        display: flex;
+    }
 
     /* solutions */
     #solutions {
@@ -628,9 +644,9 @@ nav .scroll {
         margin: 0 .7rem;
     }
 
-#list_solutions img{
-    display: none;
-}
+    #list_solutions img {
+        display: none;
+    }
 
     #codeTeam img {
         display: flex;
@@ -651,7 +667,7 @@ nav .scroll {
         width: 06rem;
         height: 07rem;
         margin: 1.9rem auto 0;
-        
+
     }
 
     .qrcode>img {
@@ -671,5 +687,16 @@ nav .scroll {
         margin: auto;
         align-items: center;
         row-gap: 1.2rem;
+    }
+
+    #googleLoginCTA {
+        display: none;
+    }
+
+    #buttonDiv {
+        display: flex;
+        margin: 6.5rem auto 0;
+        align-content: center;
+        justify-content: center;
     }
 }
