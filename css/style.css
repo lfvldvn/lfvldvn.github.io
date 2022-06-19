@@ -597,12 +597,14 @@ nav .scroll {
         display: flex;
         margin: auto;
         width: 20vw;
+        margin-top: 2.5rem;
     }
 
     #solutions img {
         display: flex;
         margin: auto;
         width: 20vw;
+        margin-top: 2.5rem;
     }
 
     /* lista de soluções */
@@ -626,16 +628,22 @@ nav .scroll {
         margin: 0 .7rem;
     }
 
+#list_solutions img{
+    display: none;
+}
+
     #codeTeam img {
         display: flex;
         margin: auto;
         width: 20vw;
+        margin-top: 2.5rem;
     }
 
     #contact img {
         display: flex;
         margin: auto;
         width: 20vw;
+        margin-top: 2.5rem;
     }
 
     /* QR CODE DESKTOP*/
