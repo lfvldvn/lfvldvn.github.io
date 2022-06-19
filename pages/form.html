@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div>
+        <h1>
+            CADASTRO
+        </h1>
+        <p>
+            Newsletter
+        </p>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label>Sobre qual solução você gostaria de falar?</label>
+            <label>
+                <input type="radio" name="service" value="trainment">Trainment
+            </label>
+            <label>
+                <input type="radio" name="service" value="frontend">Marketing Consulting
+            </label>
+            <label>
+                <input type="radio" name="service" value="webapplication">Web Application
+            </label>
+            <label>
+                <input type="radio" name="service" value="bugbounty">Bug Bounty
+            </label>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+</body>
+
+</html>

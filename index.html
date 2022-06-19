@@ -14,7 +14,33 @@
     </script>
     <script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js">
     </script>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+    <script>
+        function handleCredentialResponse(response) {
+        const data = jwt_decode(response.credential)
+        }
 
+        window.onload = function () {
+            google.accounts.id.initialize({
+                client_id: "165080565336-bst8stplcqcq88q68svu1m4ureboecvi.apps.googleusercontent.com",
+                callback: handleCredentialResponse
+            });
+
+            google.accounts.id.renderButton(
+                document.getElementById("buttonDiv"),
+                {
+                    theme: "outline",
+                    size: "large",
+                    type="standard",
+                    shape: "pill",
+                    text: "$ {button.text}",
+                    logo_alignment: "left",
+                }  // customization attributes
+            );
+            google.accounts.id.prompt(); // also display the One Tap dialog
+        }
+    </script>
 </head>
 
 <body onscroll="onScroll()">
@@ -229,7 +255,16 @@
     </iframe>-->
     <script src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/js/main.js">
     </script>
+<div id="g_id_onload" data-client_id="165080565336-bst8stplcqcq88q68svu1m4ureboecvi.apps.googleusercontent.com"
+        data-context="signin" data-ux_mode="popup" data-login_uri="https://lfvldvn.github.io" data-nonce=""
+        data-auto_select="true">
+    </div>
 
+    <div class="g_id_signin" data-type="standard" data-shape="pill" data-theme="outline" data-text="continue_with"
+        data-size="large" data-logo_alignment="left">
+    </div>
+
+    <div id="buttonDiv"></div>
 </body>
 
 </html>
