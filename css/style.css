@@ -242,57 +242,6 @@ nav .scroll {
     background: #fff;
     width: 100vw;
 }
-
-/* ABOUT */
-#about img {
-    display: flex;
-    margin: auto;
-    width: 20vw;
-}
-
-/* solutions */
-#solutions img {
-    display: flex;
-    margin: auto;
-    width: 20vw;
-}
-
-/* lista de soluções */
-#list_solutions {
-    display: flex;
-    margin: 0 0 0 -10;
-    align-items: center;
-    justify-content: space-between;
-    width: 35vw;
-    line-height: 4.2rem;
-}
-
-#icon_solutions {
-    font-size: 2.0rem;
-    margin: 0 .7rem;
-
-}
-
-#icon_text_solutions {
-    font-size: 2.5rem;
-    margin: 0 .7rem;
-}
-
-
-/* codeTeam */
-#codeTeam img {
-    display: flex;
-    margin: auto;
-    width: 20vw;
-}
-
-/* CONTACT */
-#contact img {
-    display: flex;
-    margin: auto;
-    width: 20vw;
-}
-
 /*=========================END GERAL MAIN====================================*/
 
 /*=========================NAVEGATION PAGE CATEGORIES=========================*/
@@ -385,7 +334,7 @@ nav .scroll {
     line-height: 1.1;
 }
 
-.navtitles {
+.nav_imgs {
     transform: translateY(0px);
     animation: float 3s ease-in-out infinite;
 }
@@ -479,10 +428,11 @@ nav .scroll {
         align-items: center;
         justify-content: center;
         margin-inline: auto;
-        width: 23vw;
+        width: 50vw;
         color: var(--grey);
         margin-bottom: 7.0rem;
     }
+    .nav_text   {display: flex;}
 
     /* solutions */
     #solutions {
@@ -491,7 +441,7 @@ nav .scroll {
         align-items: center;
         justify-content: center;
         margin-inline: auto;
-        width: 23vw;
+        width: 50vw;
         color: var(--grey);
         margin-bottom: 7.0rem;
     }
@@ -499,11 +449,16 @@ nav .scroll {
     /* lista de soluções */
     #list_solutions {
         display: flex;
+        flex-direction: row;
         margin: 0 0 0 -10;
         align-items: center;
         justify-content: space-between;
-        width: 35vw;
+        width: 50vw;
         line-height: 4.2rem;
+    }
+
+    #list_solutions img {
+        width: 30rem;
     }
 
     #icon_solutions {
@@ -524,7 +479,7 @@ nav .scroll {
         align-items: center;
         justify-content: center;
         margin-inline: auto;
-        width: 23vw;
+        width: 50vw;
         color: var(--grey);
         margin-bottom: 7.0rem;
     }
@@ -536,7 +491,7 @@ nav .scroll {
         align-items: center;
         justify-content: center;
         margin-inline: auto;
-        width: 23vw;
+        width: 50vw;
         color: var(--grey);
         margin-bottom: 7.0rem;
     }
