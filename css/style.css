@@ -23,7 +23,6 @@ body {
     background-color: #202024;
 }
 
-
 .btn {
     display: flex;
     justify-content: center;
@@ -155,7 +154,6 @@ ul {
 
 /*TryHackMe8*/
 .TryHackMe {
-    margin: 2rem 0;
     margin: 01.5rem auto 0;
 }
 
@@ -172,13 +170,6 @@ ul {
     height: 07rem;
     object-fit: cover;
 
-}
-
-/* SPOTIFY */
-.spotify {
-    margin: 3.5rem auto 0;
-    width: 20rem;
-    position: relative;
 }
 
 /* HEADER */
@@ -315,7 +306,7 @@ nav .scroll {
     width: 80vw;
     color: var(--grey);
     margin-bottom: 1.0rem;
-    padding-top: 1.5rem;
+    padding-top: 3.0rem;
 }
 
 #about img {
@@ -334,7 +325,7 @@ nav .scroll {
     width: 80vw;
     color: var(--grey);
     margin-bottom: 1.0rem;
-    padding-top: 1.5rem;
+    padding-top: 3.0rem;
 }
 
 #solutions img {
@@ -353,7 +344,7 @@ nav .scroll {
     width: 80vw;
     color: var(--grey);
     margin-bottom: 1.0rem;
-    padding-top: 1.5rem;
+    padding-top: 3.0rem;
 }
 
 #codeTeam img {
@@ -372,7 +363,7 @@ nav .scroll {
     width: 80vw;
     color: var(--grey);
     margin-bottom: 1.0rem;
-    padding-top: 1.5rem;
+    padding-top: 3.0rem;
 }
 
 #contact img {
@@ -394,35 +385,68 @@ nav .scroll {
     line-height: 1.1;
 }
 
+.navtitles {
+    transform: translateY(0px);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
 /* NAV TEXT CONTENT */
 .nav_text {
     text-align: justify;
 }
 
 /*=========================DESKTOP=========================*/
-@media (min-width: 960px) {
 
+
+@media (min-width: 960px) {
     /* estilos versão desktop */
     main {
         background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/e5111619fa49f554adfe8ab67ca9222f481e11b2/images/background_2.svg);
-        background-position: center right;
+        background-position: center;
         background-repeat: no-repeat;
         width: 100%;
     }
 
     /* QR CODE DESKTOP*/
     .qrcode {
-        width: 05rem;
+        width: 06rem;
         height: 07rem;
-        margin: .5rem auto 0;
-        position: relative;
+        margin: 1.9rem auto 0;
+        
     }
 
     .qrcode>img {
         width: 05rem;
         height: 07rem;
-        object-fit: cover;
+    }
 
+    /* SPOTIFY DESKTOP*/
+    .spotify {
+        margin: 1.5rem auto 0;
+        width: 30rem;
+    }
+
+    .extraBox {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+        row-gap: 1.2rem;
+        width: 29.6rem;
     }
 
     /* LIKE AVATAR DESKTOP*/
@@ -435,12 +459,6 @@ nav .scroll {
         height: 05rem;
     }
 
-    /* SPOTIFY DESKTOP*/
-    .spotify {
-        margin: 3.5rem auto 0;
-        width: 29rem;
-        position: relative;
-    }
 
     /* SOCIAL MEDIA ICONS DESKTOP*/
     .icon {
@@ -534,30 +552,6 @@ nav .scroll {
         text-align: justify;
     }
 
-    /* SPOTIFY DESKTOP*/
-    .spotify {
-        margin: .5rem auto 0;
-        width: 20rem;
-        position: relative;
-    }
-
-}
-
-@media (min-width: 1366px) {
-    main {
-        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/e5111619fa49f554adfe8ab67ca9222f481e11b2/images/background_2.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-    }
-
-    /* QR CODE DESKTOP*/
-    .qrcode {
-        width: 05rem;
-        height: 07rem;
-        margin: .9rem auto 0;
-        position: relative;
-    }
 }
 
 /*=========================MOBILE=========================*/
@@ -689,9 +683,30 @@ nav .scroll {
         width: 20vw;
     }
 
-    /*TryHackMe8*/
-    .TryHackMe {
-        margin: 2rem 0;
-        margin: 01.5rem auto 0;
+    /* QR CODE DESKTOP*/
+    .qrcode {
+        width: 06rem;
+        height: 07rem;
+        margin: 1.9rem auto 0;
+        
+    }
+
+    .qrcode>img {
+        width: 05rem;
+        height: 07rem;
+    }
+
+    /* SPOTIFY DESKTOP*/
+    .spotify {
+        margin: 1.5rem auto 0;
+        width: 25rem;
+    }
+
+    .extraBox {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+        row-gap: 1.2rem;
     }
 }
