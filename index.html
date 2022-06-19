@@ -14,11 +14,11 @@
     </script>
     <script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js">
     </script>
-<script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
     <script>
         function handleCredentialResponse(response) {
-        const data = jwt_decode(response.credential)
+            const data = jwt_decode(response.credential)
         }
 
         window.onload = function () {
@@ -32,7 +32,7 @@
                 {
                     theme: "outline",
                     size: "large",
-                    type:"standard",
+                    type: "standard",
                     shape: "pill",
                     text: "$ {button.text}",
                     logo_alignment: "left",
@@ -175,7 +175,8 @@
                 ótimo café! 💡 💻 ☕ 😎
                 <br>
                 <br>
-                <img class="nav_imgs" src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/images/coffee.png?raw=true" alt="">
+                <img class="nav_imgs"
+                    src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/images/coffee.png?raw=true" alt="">
             </p>
         </div>
         <!-- SOLUTIONS -->
@@ -186,7 +187,7 @@
                 a qualidade que é uma joia! 💎
                 <br>
                 <br>
-                
+
             </p>
             <p class="nav_text">
             <div id="list_solutions">
@@ -204,7 +205,8 @@
                     <div class="text-diamond">?</div>
                     <div class="text-diamond">?</div>
                 </div>
-                <img class="nav_imgs" src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/images/diamond.png?raw=true" alt="">
+                <img class="nav_imgs"
+                    src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/images/diamond.png?raw=true" alt="">
             </div>
             </p>
         </div>
@@ -231,7 +233,8 @@
                 Faça parte dessa tripulação e alcance o extraordinário! 🚀
                 <br>
                 <br>
-                <img class="nav_imgs" src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/images/launcher.png?raw=true" alt="">
+                <img class="nav_imgs"
+                    src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/images/launcher.png?raw=true" alt="">
             </p>
         </div>
         <!-- CONTACT -->
@@ -239,7 +242,8 @@
             <p class="navtitles">CONTACT</p>
             <p class="nav_text">
                 TEXT
-                <img class="nav_imgs" src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/images/comments.png?raw=true" alt="">
+                <img class="nav_imgs"
+                    src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/images/comments.png?raw=true" alt="">
             </p>
         </div>
         <!-- END NAV PAGES -->
@@ -255,16 +259,23 @@
     </iframe>-->
     <script src="https://github.com/lfvldvn/lfvldvn.github.io/blob/main/js/main.js">
     </script>
-<div id="g_id_onload" data-client_id="165080565336-bst8stplcqcq88q68svu1m4ureboecvi.apps.googleusercontent.com"
-        data-context="signin" data-ux_mode="popup" data-login_uri="https://lfvldvn.github.io" data-nonce=""
-        data-auto_select="true">
-    </div>
+    <!--GOOGLE LOGIN -->
+    <div id="googleLoginCTA">
+        <!-- login com google modo html -->
+        <div id="g_id_onload" data-client_id="165080565336-bst8stplcqcq88q68svu1m4ureboecvi.apps.googleusercontent.com"
+            data-context="signin" data-ux_mode="popup" data-login_uri="https://lfvldvn.github.io" data-nonce=""
+            data-auto_select="true">
+        </div>
 
-    <div class="g_id_signin" data-type="standard" data-shape="pill" data-theme="outline" data-text="continue_with"
-        data-size="large" data-logo_alignment="left">
+        <div class="g_id_signin" data-type="standard" data-shape="pill" data-theme="outline" data-text="continue_with"
+            data-size="large" data-logo_alignment="left">
+        </div>
+        <!-- login com google modo html -->
+        <!-- login com google modo js -->
+        <div id="buttonDiv"></div>
+        <!-- login com google modo js -->
     </div>
-
-    <div id="buttonDiv"></div>
+    <!-- END GOOGLE LOGIN -->
 </body>
 
 </html>
