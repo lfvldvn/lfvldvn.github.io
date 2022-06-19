@@ -345,7 +345,7 @@ nav .scroll {
     }
 
     50% {
-        transform: translateY(-30px);
+        transform: translateY(50px);
     }
 
     100% {
@@ -654,7 +654,7 @@ nav .scroll {
     /* SPOTIFY DESKTOP*/
     .spotify {
         margin: 1.5rem auto 0;
-        width: 25rem;
+        width: 20rem;
     }
 
     .extraBox {
