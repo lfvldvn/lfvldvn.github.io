@@ -1,5 +1,11 @@
 @media (min-width: 960px) {
 
+    #body_card_mobileOnly {
+        display: none;
+        overflow: hidden;
+    }
+
+
     #body_card {
         display: flex;
         align-items: center;
@@ -88,7 +94,14 @@
 }
 
 @media only screen and (max-width: 768px) {
-#body_card {
+
+
+    #body_card {
+        display: none;
+        overflow: hidden;
+    }
+
+    #body_card_mobileOnly {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -97,7 +110,7 @@
         width: 100%;
     }
 
-    .container_card {
+    .container_card_mobileOnly {
         position: relative;
         display: flex;
         align-items: center;
@@ -108,10 +121,10 @@
         margin-bottom: 5rem;
     }
 
-    .container_card .card {
+    .container_card_mobileOnly .card_mobileOnly {
         position: relative;
         width: 15rem;
-        height: 16rem;
+        height: 21rem;
         margin: 30px 30px 50px 30px;
         box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
         border-radius: 15px;
@@ -125,7 +138,7 @@
         backdrop-filter: blur(2px);
     }
 
-    .container_card .card .content_card {
+    .container_card_mobileOnly .card_mobileOnly .content_card_mobileOnly {
         padding: 1.5rem;
         text-align: center;
         transform: translateY(100px);
@@ -135,12 +148,12 @@
         transition: 0.2s;
     }
 
-    .container_card .card:hover .content_card {
+    .container_card_mobileOnly .card_mobileOnly:hover .content_card_mobileOnly {
         transform: translateY(0);
         opacity: 1;
     }
 
-    .container_card .card .content_card h2 {
+    .container_card_mobileOnly .card_mobileOnly .content_card_mobileOnly h2 {
         position: absolute;
         top: 50px;
         right: 50px;
@@ -149,19 +162,19 @@
         pointer-events: none;
     }
 
-    .container_card .card .content_card h3 {
+    .container_card_mobileOnly .card_mobileOnly .content_card_mobileOnly h3 {
         font-size: 1.5em;
         color: #fff;
         z-index: 1;
     }
 
-    .container_card .card .content_card p {
+    .container_card_mobileOnly .card_mobileOnly .content_card_mobileOnly p {
         font-size: 0.8em;
         color: #fff;
         font-weight: 300;
     }
 
-    .container_card .card .content_card a {
+    .container_card_mobileOnly .card_mobileOnly .content_card_mobileOnly a {
         position: relative;
         display: inline-block;
         padding: 8px 20px;
