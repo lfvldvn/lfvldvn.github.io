@@ -105,6 +105,7 @@
         max-width: 1200px;
         flex-wrap: wrap;
         z-index: 1;
+        margin-bottom: 5rem;
     }
 
     .container_card .card {
