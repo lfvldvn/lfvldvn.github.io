@@ -142,8 +142,8 @@
 
     .container_card .card .content_card h2 {
         position: absolute;
-        top: -20px;
-        right: 30px;
+        top: 50px;
+        right: 50px;
         font-size: 6em;
         color: rgba(255, 255, 255, 0.2);
         pointer-events: none;
@@ -156,7 +156,7 @@
     }
 
     .container_card .card .content_card p {
-        font-size: 0.7em;
+        font-size: 0.5em;
         color: #fff;
         font-weight: 300;
     }
