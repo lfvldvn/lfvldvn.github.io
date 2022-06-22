@@ -87,7 +87,7 @@
     }
 }
 
-
+@media only screen and (max-width: 768px) {
 #body_card {
         display: flex;
         align-items: center;
@@ -172,3 +172,4 @@
         font-weight: 500;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
+}
