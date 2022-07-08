@@ -159,17 +159,16 @@ ul {
 
 /* QR CODE */
 .qrcode {
-    width: 05rem;
+    width: 07rem;
     height: 07rem;
-    margin: 01.5rem auto 0;
     position: relative;
 }
 
 .qrcode>img {
-    width: 05rem;
+    width: 07rem;
     height: 07rem;
-    object-fit: cover;
-
+    padding: 0.01rem 0.9rem;
+    background-color: #fff;
 }
 
 /* HEADER */
@@ -374,16 +373,17 @@ nav .scroll {
 
     /* QR CODE DESKTOP*/
     .qrcode {
-        width: 06rem;
-        height: 07rem;
-        margin: 1.9rem auto 0;
+    width: 07rem;
+    height: 07rem;
+    position: relative;
+}
 
-    }
-
-    .qrcode>img {
-        width: 05rem;
-        height: 07rem;
-    }
+.qrcode>img {
+    width: 07rem;
+    height: 07rem;
+    padding: 0.01rem 0.9rem;
+    background-color: #fff;
+}
 
     /* SPOTIFY DESKTOP*/
     .spotify {
