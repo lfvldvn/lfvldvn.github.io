@@ -6,16 +6,17 @@
     margin-inline: auto;
     color: var(--grey);
 }
+
 /* O container geral define a perspectiva */
 .flip-container {
     perspective: 1000;
     margin: 1rem;
-    background-image: linear-gradient(to bottom, hsla(324, 77%, 52%, 0.8),  hsla(292, 77%, 65%, 0.6), hsla(240, 6%, 13%, 1));
+    background-image: linear-gradient(to bottom, hsla(324, 77%, 52%, 0.8), hsla(292, 77%, 65%, 0.6), hsla(240, 6%, 13%, 1));
 }
 
 /* vira os containers frente e verso quando o mouse passa em cima */
-.flip-container:active .flipper,
-.flip-container.active .flipper {
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
     transform: rotateY(180deg);
 }
 
@@ -24,7 +25,7 @@
 .back {
     width: 15rem;
     height: 10rem;
-    
+
 }
 
 /* define a velocidade da transição */
@@ -62,9 +63,35 @@
     transform: rotateY(180deg);
 }
 
-.hid { opacity: 1;}
+.hid {
+    opacity: 1;
+}
+
+#codeTeamctaID {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: var(--grey);
+    width: 50rem;
+}
+
+.cta_id {
+    display: flex;
+    margin: auto;
+    padding: 8px 20px;
+    background: #0096D1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
 
 /*=========================MOBILE=========================*/
 @media only screen and (max-width: 768px) {
-    #codeTeamID {display: none;}
+    #codeTeamID {
+        display: none;
+    }
 }

@@ -178,7 +178,7 @@
         font-weight: 300;
     }
 
-    .container_card_mobileOnly .card_mobileOnly .content_card_mobileOnly a {
+    #ctaid {
         position: relative;
         display: inline-block;
         padding: 8px 20px;
