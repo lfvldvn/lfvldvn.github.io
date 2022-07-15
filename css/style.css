@@ -361,7 +361,7 @@ nav .scroll {
 
     /*TryHackMe8*/
     .TryHackMe {
-        margin: 02.5rem auto 0;
+        margin: 02.5rem 0 0 0;
         border: 2px solid #BBBAC1;
         border-radius: 50px;
         padding: 0 0.5rem 0 0;
@@ -400,7 +400,7 @@ nav .scroll {
         width: 27rem;
     }
 
-  
+
 
     #googleLoginCTA {
         display: none;
@@ -672,11 +672,19 @@ nav .scroll {
         margin-top: 2.5rem;
     }
 
+    .extraBox {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+        row-gap: 1.2rem;
+    }
+
     /* QR CODE MOBILE*/
     .qrcode {
         width: 07rem;
         height: 07rem;
-        margin: 1.9rem 3rem 0rem 0rem;
+        margin: 1.9rem 0.2rem 0rem 0rem;
         background-color: #fff;
 
     }
@@ -684,7 +692,7 @@ nav .scroll {
     .qrcode>img {
         width: 05rem;
         height: 07rem;
-        margin: 0rem 5rem 1rem 1rem;
+        margin: 0rem 0rem 1rem 1rem;
     }
 
     /* SPOTIFY MOBILE*/
@@ -696,14 +704,6 @@ nav .scroll {
         padding: 0;
     }
 
-    .extraBox {
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-        align-items: center;
-        row-gap: 1.2rem;
-    }
-
     #googleLoginCTA {
         display: none;
     }
@@ -711,6 +711,7 @@ nav .scroll {
     #buttonDiv {
         display: none;
     }
+
     #buttonDivMobile {
         display: block;
         margin: 1rem auto 0;
@@ -718,5 +719,5 @@ nav .scroll {
         justify-content: center;
         width: 14rem;
     }
-    
+
 }
