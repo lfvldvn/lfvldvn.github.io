@@ -401,10 +401,14 @@ nav .scroll {
     }
 
     #googleLoginCTA {
-        display: block;
-        margin: 0 0 0 5rem;
-        align-content: center;
-        justify-content: center;
+        display: flex;
+        position: absolute;
+        margin: 0.5rem 0.5rem;
+        top: 0;
+        right: 0;
+        align-content: right;
+        justify-content: right;
+        z-index: 3;
     }
 
     #buttonDiv {
