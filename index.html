@@ -50,6 +50,18 @@
                     logo_alignment: "left",
                 }  // customization attributes
             );
+
+            google.accounts.id.renderButton(
+                document.getElementById("buttonDivMobile"),
+                {
+                    theme: "outline",
+                    size: "large",
+                    type: "standard",
+                    shape: "pill",
+                    text: "$ {button.text}",
+                    logo_alignment: "left",
+                }  // customization attributes
+            );
             google.accounts.id.prompt(); // also display the One Tap dialog
         }
     </script>
@@ -107,7 +119,6 @@
     <main>
         <!-- START BIO -->
         <div class="container">
-
             <div class="avatar">
                 <span>
                     <img src="https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/main/images/like.gif"
@@ -151,6 +162,7 @@
             </ul>
         </div>
         <!-- END BIO -->
+        <div id="buttonDivMobile"></div>
         <!-- START TRYHACKME/QRCODE/SPOTIFY -->
         <div class="extraBox">
             <div class="TryHackMe">
