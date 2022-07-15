@@ -565,7 +565,7 @@ nav .scroll {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 300px;
+        width: 100%;
         margin-inline: auto;
         padding-inline: 2.4rem;
     }
@@ -608,10 +608,14 @@ nav .scroll {
 
     .like {
         position: absolute;
-        top: -55px;
+        top: -07rem;
         left: -10px;
         width: 07rem;
         height: 07rem;
+    }
+
+    #userPhoto {
+        margin-top: -3rem;
     }
 
     .img_nav {
