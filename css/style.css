@@ -400,7 +400,13 @@ nav .scroll {
         width: 27rem;
     }
 
+  
+
     #googleLoginCTA {
+        display: none;
+    }
+
+    #buttonDiv {
         display: flex;
         position: absolute;
         margin: 0.5rem 0.5rem;
@@ -409,10 +415,6 @@ nav .scroll {
         align-content: right;
         justify-content: right;
         z-index: 3;
-    }
-
-    #buttonDiv {
-        display: none;
     }
 
     /* LIKE AVATAR DESKTOP*/
