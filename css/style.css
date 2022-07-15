@@ -155,20 +155,10 @@ ul {
 /*TryHackMe8*/
 .TryHackMe {
     margin: 01.5rem auto 0;
-}
-
-/* QR CODE */
-.qrcode {
-    width: 07rem;
-    height: 07rem;
-    position: relative;
-}
-
-.qrcode>img {
-    width: 07rem;
-    height: 07rem;
-    padding: 0.01rem 0.9rem;
-    background-color: #fff;
+    border: 2px solid #BBBAC1;
+    border-radius: 50px;
+    padding: 0 0.5rem 0 0;
+    background-color: #343C42;
 }
 
 /* HEADER */
@@ -359,8 +349,6 @@ nav .scroll {
 }
 
 /*=========================DESKTOP=========================*/
-
-
 @media (min-width: 960px) {
 
     /* estilos versão desktop */
@@ -371,24 +359,37 @@ nav .scroll {
         width: 100%;
     }
 
+    /*TryHackMe8*/
+    .TryHackMe {
+        margin: 02.5rem auto 0;
+        border: 2px solid #BBBAC1;
+        border-radius: 50px;
+        padding: 0 0.5rem 0 0;
+        background-color: #343C42;
+    }
+
     /* QR CODE DESKTOP*/
     .qrcode {
-    width: 07rem;
-    height: 07rem;
-    position: relative;
-}
+        width: 07rem;
+        height: 07rem;
+        position: relative;
+        margin: 2.0rem auto 0;
+    }
 
-.qrcode>img {
-    width: 07rem;
-    height: 07rem;
-    padding: 0.01rem 0.9rem;
-    background-color: #fff;
-}
+    .qrcode>img {
+        width: 05rem;
+        height: 07rem;
+        padding: 0.01rem 0.9rem;
+        background-color: #fff;
+    }
 
     /* SPOTIFY DESKTOP*/
     .spotify {
-        margin: 1.5rem auto 0;
-        width: 30rem;
+        margin: 2.5rem auto 0;
+        width: 29rem;
+        border: 2px solid #BBBAC1;
+        border-radius: 15px;
+        padding: 0;
     }
 
     .extraBox {
@@ -396,13 +397,12 @@ nav .scroll {
         flex-direction: row;
         margin: auto;
         align-items: center;
-        row-gap: 1.2rem;
-        width: 29.6rem;
+        width: 27rem;
     }
 
     #googleLoginCTA {
-        display: flex;
-        margin: 1.5rem auto 0;
+        display: block;
+        margin: 0 0 0 5rem;
         align-content: center;
         justify-content: center;
     }
@@ -662,23 +662,28 @@ nav .scroll {
         margin-top: 2.5rem;
     }
 
-    /* QR CODE DESKTOP*/
+    /* QR CODE MOBILE*/
     .qrcode {
-        width: 06rem;
+        width: 07rem;
         height: 07rem;
-        margin: 1.9rem auto 0;
+        margin: 1.9rem 3rem 0rem 0rem;
+        background-color: #fff;
 
     }
 
     .qrcode>img {
         width: 05rem;
         height: 07rem;
+        margin: 0rem 5rem 1rem 1rem;
     }
 
-    /* SPOTIFY DESKTOP*/
+    /* SPOTIFY MOBILE*/
     .spotify {
         margin: 1.5rem auto 0;
         width: 20rem;
+        border: 2px solid #BBBAC1;
+        border-radius: 15px;
+        padding: 0;
     }
 
     .extraBox {
@@ -694,9 +699,10 @@ nav .scroll {
     }
 
     #buttonDiv {
-        display: flex;
-        margin: 6.5rem auto 0;
+        display: block;
+        margin: 1.5rem auto 0;
         align-content: center;
         justify-content: center;
+        width: 14rem;
     }
 }

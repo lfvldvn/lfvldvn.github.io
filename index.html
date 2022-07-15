@@ -48,26 +48,33 @@
     <nav id="navigation" class="scroll">
         <div class="wrapper">
             <a href="#about">
-                <img class="img_nav"
-                    src="./images/resume.png" alt="">
+                <img class="img_nav" src="./images/resume.png" alt="">
                 about
             </a>
             <a href="#solutions">
-                <img class="img_nav"
-                    src="./images/graph.png" alt="">
+                <img class="img_nav" src="./images/graph.png" alt="">
                 solutions
             </a>
             <a href="#codeTeam">
-                <img class="img_nav"
-                    src="./images/light-bulb.png" alt="">
+                <img class="img_nav" src="./images/light-bulb.png" alt="">
                 codeTeam
             </a>
             <a href="#contact">
-                <img class="img_nav"
-                    src="./images/question-and-answer.png"
-                    alt="">
+                <img class="img_nav" src="./images/question-and-answer.png" alt="">
                 contact
             </a>
+            <!-- login com google modo html -->
+            <div id="googleLoginCTA">
+                <div id="g_id_onload"
+                    data-client_id="165080565336-bst8stplcqcq88q68svu1m4ureboecvi.apps.googleusercontent.com"
+                    data-context="signin" data-ux_mode="popup" data-login_uri="https://lfvldvn.github.io" data-nonce=""
+                    data-auto_select="true">
+                </div>
+                <div class="g_id_signin" data-type="standard" data-shape="pill" data-theme="outline"
+                    data-text="continue_with" data-size="large" data-logo_alignment="left">
+                </div>
+            </div>
+            <!-- end login com google modo html -->
         </div>
     </nav>
     <header class="wrapper">
@@ -85,45 +92,44 @@
             </div>
             <h1 id="userName">Alef Valdevino</h1>
             <a id="userLink" href="https://github.com/lfvldvn" target="_blank">
-                <img src="./images/github.png"
-                    alt="ícone github" class="icon" />
+                <img src="./images/github.png" alt="ícone github" class="icon" />
                 <span id="userLogin">lfvldvn</span>
             </a>
             <p id="userBio">Marketing Analyst <br>Web Application Developer <br>Ethical Hacker <br>Bug bounty</p>
             <ul id="socialLinks">
                 <li class="linkedin">
                     <a href="https://www.linkedin.com/in/alef/" target="_blank">
-                        <img src="./images/linkedin.png"
-                            alt="ícone linkedin" class="icon" />
+                        <img src="./images/linkedin.png" alt="ícone linkedin" class="icon" />
                     </a>
                 </li>
                 <li class="facebook">
                     <a href="https://www.facebook.com/alefvaldevinobarboza" target="_blank">
-                        <img src="./images/facebook.png"
-                            alt="ícone facebook" class="icon" />
+                        <img src="./images/facebook.png" alt="ícone facebook" class="icon" />
                     </a>
                 </li>
                 <li class="twitter">
                     <a href="https://twitter.com/lfvldvn" target="_blank">
-                        <img src="./images/twitter.png"
-                            alt="ícone twitter" class="icon" />
+                        <img src="./images/twitter.png" alt="ícone twitter" class="icon" />
                     </a>
                 </li>
                 <li class="instagram">
                     <a href="https://instagram.com/lfvldvn" target="_blank">
-                        <img src="./images/instagram.png"
-                            alt="ícone instagram" class="icon" />
+                        <img src="./images/instagram.png" alt="ícone instagram" class="icon" />
                     </a>
                 </li>
                 <li class="whatsapp">
                     <a href="https://api.whatsapp.com/send?phone=+5511941150397" target="_blank">
-                        <img src="./images/whatsapp.png"
-                            alt="ícone whatsapp" class="icon" />
+                        <img src="./images/whatsapp.png" alt="ícone whatsapp" class="icon" />
                     </a>
                 </li>
             </ul>
         </div>
         <!-- END BIO -->
+        <!--GOOGLE LOGIN -->
+        <!-- login com google modo js -->
+        <div id="buttonDiv"></div>
+        <!-- login com google modo js -->
+        <!-- END GOOGLE LOGIN -->
         <!-- START TRYHACKME/QRCODE/SPOTIFY -->
         <div class="extraBox">
             <div class="TryHackMe">
@@ -131,8 +137,7 @@
                 </script>
             </div>
             <div class="qrcode">
-                <img src="./images/qrcode.svg"
-                    alt="" class="qrcodeimg">
+                <img src="./images/qrcode.svg" alt="" class="qrcodeimg">
             </div>
         </div>
         <div class="spotify">
@@ -142,18 +147,7 @@
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
             </iframe>
         </div>
-        <!-- login com google modo html -->
-        <div id="googleLoginCTA">
-            <div id="g_id_onload"
-                data-client_id="165080565336-bst8stplcqcq88q68svu1m4ureboecvi.apps.googleusercontent.com"
-                data-context="signin" data-ux_mode="popup" data-login_uri="https://lfvldvn.github.io" data-nonce=""
-                data-auto_select="true">
-            </div>
-            <div class="g_id_signin" data-type="standard" data-shape="pill" data-theme="outline"
-                data-text="continue_with" data-size="large" data-logo_alignment="left">
-            </div>
-        </div>
-        <!-- end login com google modo html -->
+
         <!-- END TRYHACKME/QRCODE/SPOTIFY -->
         <!-- START NAV PAGES -->
         <!-- ABOUT -->
@@ -188,8 +182,7 @@
                 ótimo café! 💡 💻 ☕ 😎
                 <br>
                 <br>
-                <img class="nav_imgs"
-                    src="./images/coffee.png" alt="">
+                <img class="nav_imgs" src="./images/coffee.png" alt="">
             </p>
         </div>
         <!-- SOLUTIONS -->
@@ -201,9 +194,8 @@
                 <br>
                 <br>
                 Muitos dos projetos são colaborativos mas não são abertos, caso tenha interesse em saber mais sobre
-                algum deles e/ou  ., participar do desenvolmento, venda ou aquisição entre em contato para mais detalhes.
-                <img class="nav_imgs"
-                    src="./images/diamond.png" alt="">
+                algum deles e/ou ., participar do desenvolmento, venda ou aquisição entre em contato para mais detalhes.
+                <img class="nav_imgs" src="./images/diamond.png" alt="">
             </p>
             <!--
             <p class="nav_text">
@@ -316,8 +308,7 @@
                 Faça parte dessa tripulação e alcance o extraordinário! 🚀
                 <br>
                 <br>
-                <img class="nav_imgs"
-                    src="./images/launcher.png" alt="">
+                <img class="nav_imgs" src="./images/launcher.png" alt="">
             </p>
         </div>
         <!-- CONTACT -->
@@ -325,15 +316,13 @@
             <p class="navtitles">CONTACT</p>
             <p class="nav_text">
                 TEXT
-                <img class="nav_imgs"
-                    src="./images/comments.png" alt="">
+                <img class="nav_imgs" src="./images/comments.png" alt="">
             </p>
         </div>
         <!-- END NAV PAGES -->
         <!-- FIXED GO TOP ACTION-->
         <a href="#" class="btn">
-            <img src="./images/top.png" class="btn-img"
-                alt="">
+            <img src="./images/top.png" class="btn-img" alt="">
         </a>
         <!-- END FIXED GO TOP ACTION-->
     </main>
@@ -341,13 +330,7 @@
     <!--<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUgv9Wh6ph40FZdQp1KpC_5yppkpV5zjRJgcE8-Hk88txIMy7ouPnbC_YWUjNNJjhPhpE66-_WdjPk/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
     </iframe>-->
     <script src="/js/main.js"></script>
-    <!--GOOGLE LOGIN -->
 
-
-    <!-- login com google modo js -->
-    <div id="buttonDiv"></div>
-    <!-- login com google modo js -->
-    <!-- END GOOGLE LOGIN -->
     <script src="/js/vanilla-tilt.js"></script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".card"), {
