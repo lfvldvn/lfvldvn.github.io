@@ -61,7 +61,7 @@ button {
     }
 
     #contactForm {
-        width: 22rem;
+        width: 20rem;
         background-color: #39393a;
         display: flex;
         flex-direction: column;
