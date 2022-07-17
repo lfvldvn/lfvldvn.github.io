@@ -1,3 +1,3 @@
 setTimeout(function() {
-    window.location.href = "http://www.google.com";
+    window.location.href = "https://lfvldvn.github.io";
 }, 5000);
