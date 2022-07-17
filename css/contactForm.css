@@ -1,0 +1,106 @@
+#contactForm {
+    width: 45rem;
+    background-color: #39393a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+fieldset {
+    border: 0;
+    background-color: #39393a;
+    width: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 2rem;
+}
+
+input {
+    border: 0;
+    border-radius: 05px;
+    margin: 0.25rem 0;
+    height: 2rem;
+    width: 15rem;
+}
+
+button {
+    background-color: hsl(197, 100%, 41%);
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    border-radius: 15px;
+    margin: 0.5rem 0 0 0;
+    width: 32rem;
+    height: 02rem;
+}
+
+.contactButton:hover{
+    background-color: rgba(125, 210, 244, 1);
+    color: #39393a;
+}
+
+/*=========================MOBILE=========================*/
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+#contactForm {
+    width: 25rem;
+    background-color: #39393a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+fieldset {
+    border: 0;
+    background-color: #39393a;
+    width: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0 0 0;
+}
+
+input {
+    border: 0;
+    border-radius: 05px;
+    width: 15rem;
+}
+
+button {
+    background-color: hsl(197, 100%, 41%);
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    border-radius: 15px;
+    margin: 0.5rem 0 0 0;
+    width: 16rem;
+    height: 02rem;
+}
+
+.contactButton:hover{
+    background-color: rgba(125, 210, 244, 1);
+    color: #39393a;
+}
+
+.newsletter {
+    font-size: 1rem;
+    margin: 1rem 0 -1rem 0;
+}
+
+}
