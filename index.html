@@ -23,6 +23,7 @@
     <script>
         function handleCredentialResponse(response) {
             const data = jwt_decode(response.credential)
+            console.log (data)
 
             fullName.textContent = data.name
             sub.textContent = data.sub
