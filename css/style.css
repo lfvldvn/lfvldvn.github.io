@@ -621,6 +621,10 @@ nav .scroll {
         overflow: hidden;
     }
 
+    #list_solutions {
+        margin-top: 0,5rem;
+    }
+
     #about img {
         display: flex;
         margin: auto;
