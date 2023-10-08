@@ -609,7 +609,7 @@ nav .scroll {
     /* LIKE AVATAR DESKTOP*/
     .like {
         position: absolute;
-        top: -25px;
+        top: 2px;
         left: 0px;
         z-index: 1;
         width: 05rem;
