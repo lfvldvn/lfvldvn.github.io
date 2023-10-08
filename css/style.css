@@ -534,12 +534,12 @@ nav .scroll {
 }
 
 /*=========================2k RESOLUTION=========================*/
-@media (min-width: 1500px) {
+@media (min-width: 1600px) {
 
 /* AVATAR PICTURE */
 .avatar {
     width: 10rem;
-    margin: 11.5rem auto 0;
+    margin: 21.5rem auto 0;
     position: relative;
 }
 
