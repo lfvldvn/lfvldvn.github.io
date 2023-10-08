@@ -562,7 +562,6 @@ nav .scroll {
     width: 10rem;
     height: 11.5rem;
     object-fit: cover;
-    margin-top: 38rem;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
