@@ -382,15 +382,15 @@ nav .scroll {
     }
 
     .ibm {
-        width: 07rem;
-        height: 07rem;
+        width: 10rem;
+        height: 10rem;
         position: relative;
         margin: 2.0rem auto 0;
     }
 
     .ibm>img {
-        width: 07rem;
-        height: 07rem;
+        width: 10rem;
+        height: 10rem;
         padding: 0.01rem 0.9rem;
     }
 
