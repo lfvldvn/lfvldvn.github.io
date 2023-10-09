@@ -127,6 +127,10 @@ p {
 	position: relative;
 }
 
+.allIBM div {
+	gap:0.5rem;
+}
+
 /* TRYHACKME*/
 .TryHackMe {
 	margin: 0.5rem auto 0;
