@@ -350,11 +350,12 @@ nav .scroll {
 @media (min-width: 960px) {
 
     /* estilos versão desktop */
-    body {
+    main {
         background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/main/images/background_desk.jpeg); /* BACKGROUND CARD DESKTOP*/
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-size: 100% 100%;
+        background-attachment: fixed;
     }
 
     /*TryHackMe8*/
