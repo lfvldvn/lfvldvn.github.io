@@ -382,15 +382,15 @@ nav .scroll {
     }
 
     .ibm {
-        width: 10rem;
-        height: 10rem;
+        width: 08rem;
+        height: 08rem;
         position: relative;
         margin: 2.0rem auto 0;
     }
 
     .ibm>img {
-        width: 10rem;
-        height: 10rem;
+        width: 07rem;
+        height: 07rem;
         padding: 0.01rem 0.9rem;
     }
 
@@ -445,7 +445,7 @@ nav .scroll {
     /* LIKE AVATAR DESKTOP*/
     .like {
         position: absolute;
-        top: -25px;
+        top: -15px;
         left: 0px;
         z-index: 1;
         width: 05rem;
