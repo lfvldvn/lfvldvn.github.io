@@ -493,6 +493,27 @@ nav .scroll {
         margin-bottom: 7.0rem;
     }
 
+    #solutions_pagess {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+        width: 20rem;
+    }
+
+    .solutions_pages {
+        width: 08rem;
+        height: 08rem;
+        position: relative;
+        margin: 2.0rem auto 0;
+    }
+
+    .solutions_pages>img {
+        width: 07rem;
+        height: 07rem;
+        padding: 0.01rem 0.5rem;
+    }
+
     /* lista de soluções */
     #list_solutions {
         display: flex;
