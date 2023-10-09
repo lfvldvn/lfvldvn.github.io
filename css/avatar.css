@@ -120,15 +120,14 @@ p {
 
 .allIBM {
 	display: flex;
-	flex-direction: row;
 	margin: 1.5rem auto 0;
 	align-items: center;
 	justify-content: center;
-	position: relative;
+	gap: 1rem;
 }
 
 .allIBM div {
-	margin: 0 1.5rem;
+	position:relative;
 }
 
 /* TRYHACKME*/
