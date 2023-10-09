@@ -351,7 +351,7 @@ nav .scroll {
 
     /* estilos versão desktop */
     main {
-        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/e5111619fa49f554adfe8ab67ca9222f481e11b2/images/background_2.svg);
+        background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/e5111619fa49f554adfe8ab67ca9222f481e11b2/images/background_2.svg); /* BACKGROUND CARD DESKTOP*/
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
@@ -381,6 +381,22 @@ nav .scroll {
         background-color: #fff;
     }
 
+    .ibm {
+        width: 07rem;
+        height: 07rem;
+        position: relative;
+        margin: 2.0rem auto 0;
+    }
+
+    .ibm>img {
+        width: 05rem;
+        height: 07rem;
+        padding: 0.01rem 0.9rem;
+        background-color: #fff;
+    }
+
+
+
     /* SPOTIFY DESKTOP*/
     .spotify {
         margin: 2.5rem auto 0;
@@ -391,6 +407,14 @@ nav .scroll {
     }
 
     .extraBox {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+        width: 27rem;
+    }
+
+     .extraBox_2 {
         display: flex;
         flex-direction: row;
         margin: auto;
