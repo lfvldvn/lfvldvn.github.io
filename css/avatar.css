@@ -128,7 +128,7 @@ p {
 }
 
 .allIBM div {
-	gap:0.5rem;
+	margin: 0 1.5rem;
 }
 
 /* TRYHACKME*/
