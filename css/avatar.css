@@ -120,16 +120,22 @@ p {
 
 .allIBM {
 	display: flex;
-	flex-direction: row;
 	margin: auto;
 	align-items: center;
 	justify-content: center;
+	max-width: 40vw;
 }
 
 .badges {
 	position: relative;
 	margin: -0.5rem 0 0 0;
 	display: none;
+	overflow:hidden;
+}
+
+.badges img {
+	display:none;
+	overflow:hidden;
 }
 
 /* TRYHACKME*/
