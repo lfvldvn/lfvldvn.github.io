@@ -132,12 +132,18 @@ p {
 
 /* TRYHACKME*/
 .TryHackMe {
-	margin: 0.5rem auto 0;
+	margin: 0.5 auto;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	position: relative;
+}
+
+.TryHackMe img {
 	border: 2px solid #BBBAC1;
-	border-radius: 50px;
-	padding: 0 0.5rem 0 0;
 	background-color: #343C42;
-	max-width: 16rem;
+	border-radius: 15px;
+	padding: 0.5rem;
 }
 
 .qrcode {
