@@ -394,6 +394,14 @@ nav .scroll {
         padding: 0.01rem 0.5rem;
     }
 
+    #ibmtext{
+        max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: var(--grey);
+    }
+
 
 
     /* SPOTIFY DESKTOP*/
