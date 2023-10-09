@@ -1,0 +1,96 @@
+#about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-inline: auto;
+	width: 30vw;
+	color: var(--grey);
+	margin-bottom: 1rem;
+	padding-top: 3rem;
+	text-align: justify;
+}
+
+#about p, img {
+	display: flex;
+}
+
+#about img {
+	width: 10vw;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#store {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-inline: auto;
+	width: 80vw;
+	color: var(--grey);
+	margin-bottom: 0rem;
+	padding-top: 2rem;
+}
+
+#store p {
+	max-width: 30vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+	margin: auto;
+}
+
+#store p, img {
+	margin-top: 2rem;
+}
+
+.aphillystore{
+	background-color: #fff;
+	padding: 2rem;
+	border-radius: 25px;
+}
+
+#solutions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-inline: auto;
+	width: 80vw;
+	color: var(--grey);
+	margin-bottom: 27rem;
+	padding-top: 3rem;
+}
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-inline: auto;
+	width: 80vw;
+	color: var(--grey);
+	margin-bottom: 1rem;
+	padding-top: 3rem;
+}
+
+/* */
+.pageTitles {
+	font-size: 3.5rem;
+	text-align: center;
+	background-image: linear-gradient(to bottom, #A703DA, #A00F77, #D21E59);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #black;
+	font-weight: ;
+	line-height: 1.1;
+}
+
+.pageTextContet{
+	text-align: justify;
+}

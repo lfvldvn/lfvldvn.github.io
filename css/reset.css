@@ -1,0 +1,22 @@
+:root {
+	--nav-height: 1.2rem;
+	--grey: hsl(240, 9%, 89%);
+}
+
+* { 
+	margin: 0; 
+}
+
+html, body {
+	--black: hsl(240, 6%, 13%);
+	--grey: hsl(240, 9%, 89%);
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	--webkit-font-smoothing: antialiased;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	background-color: #202024;
+}
