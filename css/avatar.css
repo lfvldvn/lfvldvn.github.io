@@ -118,10 +118,18 @@ p {
 	justify-content: center;
 }
 
+.allIBM {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
 
 .badges {
 	position: relative;
 	margin: -0.5rem 0 0 0;
+	display: none;
 }
 
 /* TRYHACKME*/
