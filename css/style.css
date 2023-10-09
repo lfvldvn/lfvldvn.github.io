@@ -353,7 +353,7 @@ nav .scroll {
     main {
         background-image: url(https://raw.githubusercontent.com/lfvldvn/lfvldvn.github.io/main/images/background_desk.jpeg); /* BACKGROUND CARD DESKTOP*/
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat: repeat-y;
         width: 100%;
     }
 
