@@ -355,7 +355,6 @@ nav .scroll {
         background-position: center;
         background-repeat: repeat;
         background-size: 100% 100%;
-        background-attachment: fixed;
     }
 
     /*TryHackMe8*/
