@@ -87,8 +87,8 @@
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	color: #black;
-	font-weight: ;
+	color: black;
+	font-weight: bold;
 	line-height: 1.1;
 }
 
