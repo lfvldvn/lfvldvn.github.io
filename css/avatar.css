@@ -45,10 +45,6 @@
 	position: relative;
 }
 
-.avatar span {
-	
-}
-
 .like {
 	position: absolute;
 	top: -15px;
@@ -71,10 +67,6 @@
 	font-size: 1.5rem;
 	margin-top: 1.5rem;
 	color: var(--grey);
-}
-
-#userName{
-
 }
 
 /* ICONS PROFILE | SOCIAL MEDIA | BADGES*/
@@ -124,8 +116,6 @@ p {
 }
 
 /* TEXTS BIO PROFILE*/
-
-
 #userName {
 	color: var(--grey);
 	font-size: 1.5rem;
@@ -222,10 +212,6 @@ p {
 	background-color: #343C42;
 	border-radius: 15px;
 	padding: 0.5rem;
-}
-
-.qrcode {
-
 }
 
 .spotify {
