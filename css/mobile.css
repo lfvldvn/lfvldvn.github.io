@@ -63,7 +63,7 @@ nav .scroll {
 }
 
 .img_nav {
-	display: flex;
+	display: none !important;
 	align-items: center;
 	justify-content: center;
 	margin: auto;
