@@ -37,6 +37,12 @@
 
 }
 
+.githubicon {
+	display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
 /* ICONS PROFILE | SOCIAL MEDIA | BADGES*/
 a {
 	color: var(--grey);
