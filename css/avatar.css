@@ -221,7 +221,7 @@ p {
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	margin: auto;
+	margin: 2rem auto;
 	border: 2px solid #BBBAC1;
 	border-radius: 15px;
 	max-width: 300px;
