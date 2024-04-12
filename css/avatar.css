@@ -247,7 +247,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		top: -10rem;
+		top: -8rem;
 	}
 	
 	.userName {
@@ -345,7 +345,7 @@ p {
 	#userName {
 		color: var(--grey);
 		font-size: 1.5rem;
-		margin: -09rem 0 0 0;
+		margin: -7rem 0 0 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
