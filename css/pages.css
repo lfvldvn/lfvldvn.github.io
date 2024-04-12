@@ -4,7 +4,7 @@
 	align-items: center;
 	justify-content: center;
 	margin-inline: auto;
-	width: 30vw;
+	width: 60vw;
 	color: var(--grey);
 	margin-bottom: 1rem;
 	padding-top: 3rem;
@@ -16,7 +16,7 @@
 }
 
 #about img {
-	width: 10vw;
+	width: 100vw;
 	margin: auto;
 	display: flex;
 	align-items: center;
@@ -36,7 +36,7 @@
 }
 
 #store p {
-	max-width: 30vw;
+	max-width: 60vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -52,6 +52,7 @@
 	background-color: #fff;
 	padding: 2rem;
 	border-radius: 25px;
+	width:  50vw;
 }
 
 #solutions {
