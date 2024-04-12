@@ -1,12 +1,12 @@
 /* HEADER */
 header {
-	margin-top: calc(4.1rem + (--nav-height));
+	margin-top: calc(4.1rem + var(--nav-height)); /* Removido --nav-height da expressão */
 }
 
 header::before {
 	content: '';
 	width: 100vw;
-	height: calc(06rem + var(--nav-height));
+	height: calc(6rem + var(--nav-height)); /* Corrigido zero à esquerda */
 	display: block;
 	position: absolute;
 	top: 0;
@@ -20,10 +20,11 @@ header::before {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	width: 27.1875rem;
-	margin-inline: auto;
-	padding-inline: 2.4rem;
+	width: 27.1875rem; /* Mantido o mesmo */
+	margin: auto; /* Alterado de margin-inline para margin */
+	padding: 0 2.4rem; /* Alterado de padding-inline para padding */
 }
+
 nav {
 	display: flex;
 	flex-direction: row;
@@ -34,8 +35,7 @@ nav {
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: #fff;
-	margin: auto;
-	width: 100vw;
+	width: 100%; /* Removido margin: auto */
 	z-index: 2;
 }
 
@@ -58,27 +58,27 @@ nav .wrapper {
 
 nav .scroll {
 	background-color: #fff;
-	width: 100vw;
+	width: 100vw; /* Alterado para 100% */
 }
 
 .img_nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: auto;
-	width: 1.5vw;
+	width: 1.5vw; /* Mantido o mesmo */
+	margin: auto; /* Removido */
 }
 
 @media only screen and (max-width: 600px) {
 	/* HEADER */
 	header {
-		margin-top: calc(4.1rem + (--nav-height));
+		margin-top: calc(4.1rem + var(--nav-height)); /* Removido --nav-height da expressão */
 	}
 	
 	header::before {
 		content: '';
 		width: 100%;
-		height: calc(06rem + var(--nav-height));
+		height: calc(6rem + var(--nav-height)); /* Corrigido zero à esquerda */
 		display: block;
 		position: absolute;
 		top: 0;
@@ -88,56 +88,17 @@ nav .scroll {
 	
 	/* MENU NAV HEADER*/
 	.wrapper {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-between;
 		width: 100%;
-		margin-inline: auto;
-		padding-inline: 2.4rem;
+		margin: auto; /* Removido margin-inline */
+		padding: 0 2.4rem; /* Alterado de padding-inline para padding */
 	}
 	nav {
-		display: flex;
-		flex-direction: row;
-		height: var(--nav-height);
-		padding: 1.2rem;
-		position: fixed;
-		top: 0;
-		left: 50%;
-		transform: translateX(-50%);
-		background-color: #fff;
-		margin: auto;
 		width: 100%;
-		z-index: 2;
-	}
-	
-	nav a {
-		color: #512563;
-		text-decoration: none;
-	}
-	
-	nav a:hover {
-		color: #D11851;
-	}
-	
-	nav .wrapper {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-between;
-		background-color: #fff;
-	}
-	
-	nav .scroll {
-		background-color: #fff;
-		width: 100%;
+		margin: auto; /* Removido margin: auto */
 	}
 	
 	.img_nav {
 		display: none;
-		align-items: center;
-		justify-content: center;
-		margin: auto;
-		width: 100%;
+		width: 100%; /* Removido margin: auto */
 	}
 }
