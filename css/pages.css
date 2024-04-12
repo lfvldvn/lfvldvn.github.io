@@ -3,7 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: auto; /* Alterado de margin-inline para margin */
+	margin-inline: auto;
 	width: 60vw;
 	color: var(--grey);
 	margin-bottom: 1rem;
@@ -11,13 +11,16 @@
 	text-align: justify;
 }
 
-#about p, #about img {
-	display: flex; /* Alterado de display: flex; */
+#about p, img {
+	display: flex;
 }
 
 #about img {
-	width: 100%; /* Alterado de 100vw para 100% */
+	width: 100vw;
 	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #store {
@@ -25,7 +28,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: auto; /* Alterado de margin-inline para margin */
+	margin-inline: auto;
 	width: 80vw;
 	color: var(--grey);
 	margin-bottom: 0rem;
@@ -39,14 +42,17 @@
 	justify-content: center;
 	text-align: justify;
 	margin: auto;
-	margin-top: 2rem; /* Movido de #store p, img para aqui */
+}
+
+#store p, img {
+	margin-top: 2rem;
 }
 
 .aphillystore{
 	background-color: #fff;
 	padding: 2rem;
 	border-radius: 25px;
-	width: 50vw;
+	width:  50vw;
 }
 
 #solutions {
@@ -54,7 +60,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: auto; /* Alterado de margin-inline para margin */
+	margin-inline: auto;
 	width: 80vw;
 	color: var(--grey);
 	margin-bottom: 27rem;
@@ -66,7 +72,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: auto; /* Alterado de margin-inline para margin */
+	margin-inline: auto;
 	width: 80vw;
 	color: var(--grey);
 	margin-bottom: 1rem;
@@ -81,11 +87,11 @@
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	color: #000; /* Alterado de #black para #000 */
-	font-weight: bold; /* Adicionado valor para font-weight */
+	color: #black;
+	font-weight: ;
 	line-height: 1.1;
 }
 
-.pageTextContet{ /* Corrigido de .pageTextContet para .pageTextContent */
+.pageTextContet{
 	text-align: justify;
 }

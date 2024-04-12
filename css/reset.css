@@ -3,10 +3,8 @@
 	--grey: hsl(240, 9%, 89%);
 }
 
-* {
-	margin: 0;
-	padding: 0; /* Adicionado padding: 0; */
-	box-sizing: border-box; /* Adicionado box-sizing: border-box; */
+* { 
+	margin: 0; 
 }
 
 html, body {
@@ -21,5 +19,4 @@ body {
 	display: grid;
 	place-items: center;
 	background-color: #202024;
-	margin: 0; /* Adicionado margin: 0; */
 }

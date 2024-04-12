@@ -1,20 +1,19 @@
 /* MAIN CONTENT */
 main {
-	background-image: url(./imagess/asstets/bgdesk.jpeg); /* Removi "no-repeat center/cover" e adicionei ponto e vírgula */
-	background-repeat: no-repeat; /* Adicionado para garantir que a imagem não seja repetida */
-	background-position: center; /* Adicionado para centralizar a imagem */
-	background-size: cover; /* Adicionado para cobrir todo o elemento */
+	background-image: url(./imagess/asstets/bgdesk.jpeg) no-repeat center/cover;
 	width: 100vw;
-	height: 100vh; /* Alterado para vh para representar a altura da viewport */
+	height: 100vw;
 }
 
-.container {
+container{
 	max-width: 250px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	color: var(--grey);
 }
+
+
 
 /* BTN GO TOP FIXED */
 .gotop {
@@ -28,7 +27,6 @@ main {
 	height: 50px;
 	text-decoration: none;
 	margin: 0 2rem 2rem 0;
-	z-index: 999; /* Adicionado um índice de empilhamento para garantir que o botão fique acima de outros elementos */
 }
 
 .gotop-img {
