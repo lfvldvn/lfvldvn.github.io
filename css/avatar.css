@@ -1,3 +1,43 @@
+.githubicon {
+	display: flex;
+        align-items: center;
+        justify-content: center;
+	margin: 0 auto;
+}
+
+.iconGH {
+	opacity: 0.25;
+	transition: opacity .1s ease-in-out;
+	-moz-transition: opacity .1s ease-in-out;
+	-webkit-transition: opacity .1s ease-in-out;
+	-moz-transition: all .1s;
+	-webkit-transition: all .1s;
+	position: relative;
+	border: 2px solid;
+	border-radius: 50px;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.infoGitHub {
+	color: var(--grey);
+	font-size: 1rem;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	vertical-align: center;
+	padding-top: 30px;
+}
+
+.iconGH:hover {
+	opacity:1;
+	-moz-transform: scale(1.2);
+	-moz-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
 /* AVATAR PICTURE */
 .avatar {
 	width: 10rem;
@@ -35,13 +75,6 @@
 
 #userName{
 
-}
-
-.githubicon {
-	display: flex;
-        align-items: center;
-        justify-content: center;
-	margin: 0 auto;
 }
 
 /* ICONS PROFILE | SOCIAL MEDIA | BADGES*/
