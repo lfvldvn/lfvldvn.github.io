@@ -1,4 +1,4 @@
-/** DESKTOP**/
+@media only screen and (min-width: 720px) {/** DESKTOP**/
 /* AVATAR PICTURE */
 .avatar {
 	width: 10rem;
@@ -227,12 +227,12 @@ p {
 	border-radius: 15px;
 	max-width: 300px;
 }
-
+}
 @media only screen and (max-width: 600px) {
 	/* AVATAR PICTURE */
 	.avatar {
-		width: 10rem;
-		margin: -5 auto;
+		width: 100vw;
+		margin: 0 auto;
 		position: relative;
 	}
 	
