@@ -1,7 +1,7 @@
 .githubicon {
 	display: flex;
-        align-items: center;
-        justify-content: center;
+    align-items: center;
+    justify-content: center;
 	margin: 0 auto;
 }
 
@@ -69,6 +69,10 @@
 	color: var(--grey);
 }
 
+#userName{
+
+}
+
 /* ICONS PROFILE | SOCIAL MEDIA | BADGES*/
 a {
 	color: var(--grey);
@@ -116,6 +120,8 @@ p {
 }
 
 /* TEXTS BIO PROFILE*/
+
+
 #userName {
 	color: var(--grey);
 	font-size: 1.5rem;
@@ -224,6 +230,3 @@ p {
 	border-radius: 15px;
 	max-width: 300px;
 }
-/* *//* */
-
-/* *//* */
