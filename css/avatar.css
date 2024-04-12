@@ -170,6 +170,32 @@ p {
 	position:relative;
 }
 
+#sfBadge {
+	color: var(--grey);
+	font-size: 1.5rem;
+	margin: 2rem 0 0.5rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	gap:0.5rem;
+	justify-content: center;
+}
+
+.allSF {
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.allSF img {
+	position:relative;
+	width: 15%;
+}
+
 /* TRYHACKME*/
 .TryHackMe {
 	margin: 0.5 auto;
