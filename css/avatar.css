@@ -245,7 +245,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		top: -7rem;
+		top: -6rem;
 	}
 	
 	.userName {
@@ -451,8 +451,8 @@ p {
 	}
 }
 
-@media only screen and (max-width: 480px) {
-	/* AVATAR PICTURE */
+/*@media only screen and (max-width: 480px) {
+	/* AVATAR PICTURE 
 	.avatar {
 		width: 100vw;
 		margin: 0 auto;
@@ -471,6 +471,6 @@ p {
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		top: -2rem;
+		top: -4rem;
 	}
 }
