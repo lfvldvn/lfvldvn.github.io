@@ -116,8 +116,6 @@ p {
 }
 
 /* TEXTS BIO PROFILE*/
-
-
 #userName {
 	color: var(--grey);
 	font-size: 1.5rem;
@@ -247,7 +245,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		top: -8rem;
+		top: -4rem;
 	}
 	
 	.userName {
