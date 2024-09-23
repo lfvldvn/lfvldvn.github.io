@@ -406,7 +406,7 @@ p {
 		justify-content: center;
 		list-style: none;
 		padding: 0;
-		gap:0.25rem;
+		gap:0.20rem;
 		justify-content: center;
 	}
 	
@@ -416,7 +416,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		gap: 1rem;
-		max-width: 100vw;
+		max-width: 90vw;
 	}
 	
 	.allIBM div {
