@@ -198,6 +198,44 @@ p {
 	gap: 0.5rem;
 }
 
+#securityBadge {
+	color: var(--grey);
+	font-size: 1.5rem;
+	margin: 2rem 0 0.5rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	gap:0.5rem;
+	justify-content: center;
+}
+
+.allsecurity {
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	
+}
+
+.allsecurity img {
+	position:relative;
+	width: 50%;
+}
+
+.securityitem {
+	color: var(--grey);
+	font-size: 0.75rem;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 0.5rem;
+}
+
 /* TRYHACKME*/
 .TryHackMe {
 	margin: 0.5 auto;
@@ -361,14 +399,14 @@ p {
 	
 	#ibmBadge {
 		color: var(--grey);
-		font-size: 1.5rem;
-		margin: 2rem 0 0.5rem 0;
+		font-size: 1.2rem;
+		margin: 1.5rem 0 0.5rem 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		list-style: none;
 		padding: 0;
-		gap:0.5rem;
+		gap:0.25rem;
 		justify-content: center;
 	}
 	
