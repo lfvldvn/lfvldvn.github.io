@@ -1,0 +1,31 @@
+/* Estilos para iframe com a classe 'outsites' */
+iframe.outsites {
+    width: 100%; /* Preenche 100% da largura */
+    height: 600px; /* Ajusta a altura proporcionalmente */
+    border: 0; /* Remove bordas */
+    margin-top: 2rem;
+}
+
+/* Responsividade para dispositivos móveis */
+@media only screen and (max-width: 720px) {
+    iframe.outsites {
+        width: 100%; /* 100% da largura para mobile */
+        height: 300px; /* Altura fixa para dispositivos menores */
+    }
+}
+
+/* Para garantir que o iframe com a classe 'outsites' mantenha proporção correta em diferentes larguras */
+.responsive-iframe.outsites {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* Proporção 16:9 */
+}
+
+.responsive-iframe.outsites iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
