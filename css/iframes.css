@@ -10,7 +10,7 @@ iframe.outsites {
 @media only screen and (max-width: 720px) {
     iframe.outsites {
         width: 100%; /* 100% da largura para mobile */
-        height: 300px; /* Altura fixa para dispositivos menores */
+        height: 600px; /* Altura fixa para dispositivos menores */
     }
 }
 
